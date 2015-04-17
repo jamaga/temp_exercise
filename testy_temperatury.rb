@@ -33,6 +33,9 @@ class TemperaturyTest < Minitest::Test
     assert_equal -457.87, t.in_f
   end
 
+  30 cels to farenheit xcxxcxc
+  czy si eprzlicza dobrze we wszystkich systemach
+
 end
 
 
