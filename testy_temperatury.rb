@@ -39,7 +39,7 @@ class TemperaturyTest < Minitest::Test
 end
 
 
-
+=begin
 t1 = Temperatura.new(100, :c)
 t1.in_c  #=> 100
 t1.in_k  #=> 373.15
@@ -48,4 +48,4 @@ t1.in_f  #=> 212
 t2 = Temperatura.new
 t2.in_c  #=> -272.15
 t2.in_k  #=> 0
-t2.in_f  #=> -457.87
+t2.in_f  #=> -457.87=end
