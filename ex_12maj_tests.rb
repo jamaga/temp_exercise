@@ -1,17 +1,24 @@
 require 'test/unit'
 require './ex_12maj'
 
-class AnimalsTest < Test::Unit::TestCase
+class AnimalModuleTest < Test::Unit::TestCase
 
   def setup
-
+    @kot = AnimalModule::Cat.new
+    @pies = AnimalModule::Dog.new
   end
 
+  def test_if_stala_is_correct
+    assert_equal 'kotek', AnimalModule::Cat::CAT
+    assert_equal 'piesel', AnimalModule::Dog::DOG
+  end
+
+  def test_if_sentence_is_correct
+    assert_equal 'cat can bark or meow', @kot.does
+    assert_equal 'dog can bark or meow', @pies.does
+  end
 
 end
-
-
-
 
 
 

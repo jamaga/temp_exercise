@@ -28,7 +28,11 @@ p d.does
 c = AnimalModule::Cat.new
 p c.does
 
+cat = AnimalModule::Cat.new
+p cat.inspect
 
+dog = AnimalModule::Dog.new
+p dog.inspect
 
 
 # napisac klase Animal ktora bedzie dzeidziczona przez 2 klasy podrzedne - Cat i Dog
