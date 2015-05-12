@@ -1,0 +1,1 @@
+Name:Apple;Price:2|Name:Banana;Price:4.5|Name:Avocado;Price:6|Name:Pear;Price:3.85
