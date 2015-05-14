@@ -31,23 +31,3 @@ end
 # shop2_h = Hash[*shop2.flatten(1)]
 # p shop2_h
 
-
-# class Shop
-#
-#   def initialize(file)
-#     @database = {}
-#     source = File.read(file).split('|').map { |row| row.split(';').map { |col| col.split(':')}.to_h }
-#     source.each do |obj|
-#       @database[obj['Name']] = obj['Price'].to_f
-#     end
-#   end
-#
-#   def find(string)
-#     @database[string]
-#   end
-#
-#   def all
-#     @database
-#   end
-#
-# end
