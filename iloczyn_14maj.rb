@@ -1,18 +1,9 @@
 class Multi
+  attr_reader :results
 
   def initialize(tablica, liczba)
-    @tablica_before_mltp = tablica
-
+    @results = tablica.map { |n| n * liczba }
   end
-
-  def results(tablica, liczba)
-    @tablica_after_mltp = []
-    @tablica_before_mltp.each do |num|
-      @tablica_after_mltp << num * liczba
-    end
-    @tablica_after_mltp
-  end
-
 end
 
 # tablica = [1, 5, 2, 8]

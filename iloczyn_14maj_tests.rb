@@ -3,18 +3,15 @@ require './iloczyn_14maj'
 
 class MultiTest < Test::Unit::TestCase
 
-  def setup
+  def test_all_results
     @multi = Multi.new([1, 5, 2, 8], 2.1)
+    assert_equal [2.1, 10.5, 4.2, 16.8], @multi.results
   end
 
-  def test_all_results
-    assert_equal [2.1, 10.5, 4.2, 16.8], @multi.results([1, 5, 2, 8], 2.1)
-  end
 
   # def test_correctness_of_results
   #   assert_equal 2.1, (@multi[0][0]) * 2.1
   # end
-
 end
 
 

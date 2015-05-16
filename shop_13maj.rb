@@ -2,10 +2,12 @@ class Shop
 
   def initialize(file)
     @shop_hash = {}
-    @shop_db = File.read(file).split('|').map { |row| row.split(';').map { |col| col.split(':')}.to_h }
+    @shop_db = File.read(file).split('|').map { |row| row.split(';').map { |col| col.gsub('"', '').gsub('\"', '').split(':')}.to_h }
+    p @shop_db.inspect
     @shop_db.each do |obj|
       @shop_hash[obj['Name']] = obj['Price']
     end
+    #p @shop_hash.inspect
   end
 
   def find_price(fruit_name)
