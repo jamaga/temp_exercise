@@ -1,15 +1,16 @@
 class NameSurname
 
-  def initialize
-    puts "what's your name?"
-    @name = gets.chomp.capitalize
-
-    puts "what's your surname?"
-    @surname = gets.chomp.capitalize
+  def initialize(name, surname)
+    @name = name.downcase.capitalize
+    @surname = surname.downcase.capitalize
   end
 
   def show_name
     @name
+  end
+
+  def show_surname
+    @surname
   end
 
   def show_name_surname
@@ -22,10 +23,17 @@ class NameSurname
 
 end
 
-ns = NameSurname.new
-p ns.show_name
-p ns.show_name_surname
-p ns.show_surname_name
+#
+# puts "what's your name?"
+# @name = gets.chomp.humanize   - to zle - w srodku klasy humanize czy cos innego, i moj kod nie byl uniwersalny
+#
+# puts "what's your surname?"
+# @surname = gets.chomp.humanize
+#
+# ns = NameSurname.new(@name, @surname)
+# p ns.show_name
+# p ns.show_name_surname
+# p ns.show_surname_name
 
 
 # napisac program - bez testow
