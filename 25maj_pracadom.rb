@@ -9,19 +9,31 @@ class Base
   def add(hash)
     @baza.push({ 'name' => hash['name'], 'email' => hash['email']})
   end
-  #
-  # def get_email(added_name)
-  #   @baza[added_name]
+
+  # def get_email(name)
+  #   @baza.each do |h|
+  #     h.map { |key, value| key['name']}
+  #     h['email']
+  #   end
   # end
+
+  def get_email(name)
+    @baza.map { |one_h|
+      return one_h[name]
+    }
+  end
+
+  # def delete(name)
+  #   @baza.each do |h|
+  #     h.delete_if { |key, value| key == name }
+  #   end
   #
-  # def delete(added_name)
-  #   @baza.reject! { |h| h['name'] == added_name}
   # end
-  #
+
   # def get_all
   #   @baza
   # end
-  #
+
   # def purge
   #   @baza = []
   # end
@@ -30,13 +42,15 @@ end
 
 
 o = Base.new
-p o
+#p o
 o.add({ 'name' => 'Piotr', 'email' => 'example@main.com' })
-p o
-# o.get_email('Piotr') # => example@main.com
-# o.add {'name' => 'Ala', 'email' => 'ala@main.com'}
-# o.get_email('Ala') # => ala@main.com
-# o.delete('Piotr')
+#p o
+o.get_email('Piotr') # => example#@main.com
+p o.get_email('Piotr')
+# o.add({'name' => 'Ala', 'email' => 'ala@main.com'})
+# # o.get_email('Ala') # => ala@main.com
+# # o.delete('Piotr')
+# p o
 # o.get_email('Piotr') # => nil
 # o.get_all # => [  {name: ‘Ala’, email: ‘ala@main.com ’} ]
 # o.purge
