@@ -30,13 +30,13 @@ class Base
   #
   # end
 
-  # def get_all
-  #   @baza
-  # end
+  def get_all
+    @baza
+  end
 
-  # def purge
-  #   @baza = []
-  # end
+  def purge
+    @baza = []
+  end
 
 end
 
@@ -47,14 +47,14 @@ o.add({ 'name' => 'Piotr', 'email' => 'example@main.com' })
 #p o
 o.get_email('Piotr') # => example#@main.com
 p o.get_email('Piotr')
-# o.add({'name' => 'Ala', 'email' => 'ala@main.com'})
-# # o.get_email('Ala') # => ala@main.com
+o.add({'name' => 'Ala', 'email' => 'ala@main.com'})
+# o.get_email('Ala') # => ala@main.com
 # # o.delete('Piotr')
 # p o
 # o.get_email('Piotr') # => nil
-# o.get_all # => [  {name: ‘Ala’, email: ‘ala@main.com ’} ]
-# o.purge
-# o.get_all # => []
+p o.get_all # => [  {name: ‘Ala’, email: ‘ala@main.com ’} ]
+o.purge
+p o.get_all # => []
 
 
 
