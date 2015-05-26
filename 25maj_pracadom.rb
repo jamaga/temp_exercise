@@ -1,6 +1,6 @@
 class Base
 
-  attr_accessor :added_name, :added_email
+  attr_reader :baza
 
   def initialize
     @baza = []
@@ -10,25 +10,19 @@ class Base
     @baza.push({ 'name' => hash['name'], 'email' => hash['email']})
   end
 
-  # def get_email(name)
-  #   @baza.each do |h|
-  #     h.map { |key, value| key['name']}
-  #     h['email']
-  #   end
-  # end
-
   def get_email(name)
-    @baza.map { |one_h|
-      return one_h[name]
-    }
+    tylko_email = nil
+    @baza.each do |one_h|
+     if  one_h['name'] == name
+       tylko_email = one_h['email']
+     end
+    end
+    tylko_email
   end
 
-  # def delete(name)
-  #   @baza.each do |h|
-  #     h.delete_if { |key, value| key == name }
-  #   end
-  #
-  # end
+  def delete(name)
+    @baza.delete_if { |h| h['name'] == name }
+  end
 
   def get_all
     @baza
@@ -42,16 +36,15 @@ end
 
 
 o = Base.new
-#p o
+p o
 o.add({ 'name' => 'Piotr', 'email' => 'example@main.com' })
-#p o
-o.get_email('Piotr') # => example#@main.com
-p o.get_email('Piotr')
-o.add({'name' => 'Ala', 'email' => 'ala@main.com'})
-# o.get_email('Ala') # => ala@main.com
-# # o.delete('Piotr')
-# p o
-# o.get_email('Piotr') # => nil
+p o
+p o.get_email('Piotr') # => example#@main.com
+p o.add({'name' => 'Ala', 'email' => 'ala@main.com'})
+p o.get_email('Ala') # => ala@main.com
+o.delete('Piotr')
+p o
+p o.get_email('Piotr') # => nil
 p o.get_all # => [  {name: ‘Ala’, email: ‘ala@main.com ’} ]
 o.purge
 p o.get_all # => []
