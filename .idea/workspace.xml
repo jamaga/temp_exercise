@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/27maj_cwiczenie.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/27maj_cwiczenie2.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/27maj_lekcja.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/27maj_singleton_przyklad.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/28maj_debug.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faktury_zadanie.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/faktury_zadanie_testy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/26maj_rozszerzenie_obiektow_testy.rb" afterPath="$PROJECT_DIR$/26maj_rozszerzenie_obiektow_testy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/28maj_debug.rb" afterPath="$PROJECT_DIR$/28maj_debug.rb" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,14 +26,14 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6685446">
+    <splitter split-orientation="horizontal" split-proportion="0.67980963">
       <split-first>
         <leaf>
           <file leaf-file-name="22maj_lista_dzialania.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/22maj_lista_dzialania.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-                  <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+                  <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -70,18 +62,8 @@
           <file leaf-file-name="26maj_rozszerzenie_obiektow_testy.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/26maj_rozszerzenie_obiektow_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="630">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
                   <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="27maj_cwiczenie.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/27maj_cwiczenie.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-                  <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -120,8 +102,8 @@
           <file leaf-file-name="28maj_debug.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/28maj_debug.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.8011869" vertical-offset="0" max-vertical-offset="750">
-                  <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+                <state vertical-scroll-proportion="0.4379562" vertical-offset="0" max-vertical-offset="810">
+                  <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -145,16 +127,6 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="shop_13maj.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shop_13maj.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="615">
-                  <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="19_maj_stubownie.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/19_maj_stubownie.rb">
               <provider selected="true" editor-type-id="text-editor">
@@ -225,10 +197,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="faktury_zadanie_testy.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="27maj_cwiczenie.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/27maj_cwiczenie.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6131387" vertical-offset="0" max-vertical-offset="685">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="faktury_zadanie_testy.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="674">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
@@ -313,10 +295,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1491" />
-    <option name="y" value="69" />
-    <option name="width" value="1510" />
-    <option name="height" value="820" />
+    <option name="x" value="1331" />
+    <option name="y" value="42" />
+    <option name="width" value="1686" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -418,7 +400,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1491" y="69" width="1510" height="820" extended-state="0" />
+    <frame x="1331" y="42" width="1686" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -427,7 +409,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11784741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10523114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -774,14 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/22maj_lista_dzialania.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.1.4/lib/ruby/2.1.0/rexml/functions.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4283" max-vertical-offset="6000">
@@ -810,30 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="840">
           <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/22maj_pdomowa_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26maj_rozszerzenie_obiektow_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="630">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27maj_cwiczenie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -870,14 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -886,10 +828,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22maj_lista_dzialania.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/26maj_rozszerzenie_obiektow_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="630">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22maj_pdomowa_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/27maj_cwiczenie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6131387" vertical-offset="0" max-vertical-offset="685">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/28maj_debug.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8011869" vertical-offset="0" max-vertical-offset="750">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.4379562" vertical-offset="0" max-vertical-offset="810">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding />
         </state>
       </provider>
