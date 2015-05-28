@@ -34,4 +34,3 @@ end
 #tutaj robila upcasa z imienia
 # normalnie maja duzo funkcjonalnosci - i w 1 klasie byloby nieczytelne
 
-
