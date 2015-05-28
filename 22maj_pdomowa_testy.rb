@@ -12,7 +12,7 @@ class NameSurnameTest < Test::Unit::TestCase
   def test_name_surname_big_letters
     @fixtury.each do |id, fixtura|
       name = fixtura['name'].to_s
-      surname = fixtura['surname'].to_s
+      surname = fixtura['surname'].to_sssss
       n = NameSurname.new(name, surname)
       assert_equal n.show_name, name.downcase.capitalize
       assert_equal n.show_name_surname, "#{name.downcase.capitalize} #{surname.downcase.capitalize}"
