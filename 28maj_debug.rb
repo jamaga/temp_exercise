@@ -17,7 +17,7 @@ module App
     end
   end
 
-  class List < App::Item
+  class List
     def initialize
       @data = []
     end

@@ -1,4 +1,4 @@
-module ProgramForInvoices
+module InvoicesApp
 
   class Invoice
 

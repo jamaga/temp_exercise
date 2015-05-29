@@ -1,7 +1,7 @@
 class Tabelka
 
   def initialize(file)
-    @source = File.read(file).split('|').map { |row| row.split(';').map(&:to_i) }
+    @source = File.read(file).gsub(/\|$/, '| ').split('|').map { |row| row.split(';').map(&:to_f) }
   end
 
   def run
