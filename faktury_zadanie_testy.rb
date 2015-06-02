@@ -78,7 +78,6 @@ class InvoicesAppClientTest < Test::Unit::TestCase
 end
 
 
-
 #
 #   itd itd
 # - wczytywać dane klienta tj. firme, imię, nazwisko, adres, nip

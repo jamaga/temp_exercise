@@ -5,7 +5,6 @@ module InvoicesApp
 
   class Client
     attr_accessor :first_name, :last_name, :clients_city, :clients_street, :nip
-
   end
 
   class Product
@@ -15,6 +14,11 @@ module InvoicesApp
       @description = description
       @quantity = quantity
       @netto_price = netto_price
+
+      if description == nil || quantity == nil || netto_price == nil
+        raise 'mialy byc TRZY argumenty podane GLABIE'
+      end
+
     end
 
     #jak zrobic zeby rzucil bledem (moim) jak nie bedzie jakiegos arg!!!!
@@ -37,19 +41,25 @@ module InvoicesApp
   end
 
   class Invoice
-    attr
+    attr_accessor :client, :products
 
     #muis przechowywac prodokty i jednego klienta + liete produktow
     # [rzejc] po prdottack - dodac brutto price i miec na fakturze
     # attr    - klient  i prducts - bede arrayami   w initialize klient i produkty
 
+    def initialize(client, products)
+
+    end
+
+
   end
 
 end
-#
-# prod = InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
-# p prod.total_netto_price
-# p prod.vat_amount
-# p prod.brutto_price
 
-prod2 = InvoicesApp::Product.new('safsdfsdfsdf', 3)
+prod = InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
+p prod.total_netto_price
+p prod.vat_amount
+p prod.brutto_price
+
+# prod2 = InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
+# p prod2
