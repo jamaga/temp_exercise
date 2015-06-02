@@ -39,6 +39,39 @@ class InvoicesAppClientTest < Test::Unit::TestCase
     assert_equal c.nip, clients_nip
   end
 
+  def test_products_description
+    products_decsription = Faker::Hacker.say_something_smart
+    c = InvoicesApp::Product.new
+    c.description = products_decsription
+    assert_equal c.description, products_decsription
+  end
+
+  def test_product_quantity
+    products_quantity = Faker::Number.digit
+    c = InvoicesApp::Product.new
+    c.quantity = products_quantity
+    assert_equal c.quantity, products_quantity
+  end
+
+  def test_products_unit_netto_price
+    products_unit_netto_price = Faker::Commerce.price
+    c = InvoicesApp::Product.new
+    c.netto_price = products_unit_netto_price
+    assert_equal c.netto_price, products_unit_netto_price
+  end
+
+  def test_total_netto_price
+
+  end
+
+  def test_vat_amount
+
+  end
+
+  def test_brutto_price
+
+  end
+
 end
 
 

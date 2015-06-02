@@ -1,34 +1,23 @@
+require 'rubygems'
+require 'faker'
+
 module InvoicesApp
 
-  class CLient
+  class Client
+    attr_accessor :first_name, :last_name, :clients_city, :clients_street, :nip
 
-    def first_name
+  end
 
-    end
-
-    def last_name
-
-    end
-
-    def clients_city
-
-    end
-
-    def clients_street
-
-    end
-
-    def nip
-
-    end
-
-
-
-
+  class Product
+    attr_accessor :description, :quantity, :netto_price
 
   end
 
   class Invoice
+
+  end
+
+  class Calculations
 
   end
 
