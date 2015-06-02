@@ -63,8 +63,8 @@
           <file leaf-file-name="faktury_zadanie.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42410713" vertical-offset="0" max-vertical-offset="672">
-                  <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+                <state vertical-scroll-proportion="0.3794643" vertical-offset="0" max-vertical-offset="750">
+                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -187,8 +187,8 @@
           <file leaf-file-name="faktury_zadanie_testy.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5116279" vertical-offset="630" max-vertical-offset="1425">
-                  <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.18604651" vertical-offset="615" max-vertical-offset="1455">
+                  <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
                   <folding />
                 </state>
               </provider>
@@ -293,8 +293,8 @@
         <option value="$PROJECT_DIR$/29maj_lekcja_includeextence.rb" />
         <option value="$PROJECT_DIR$/29maj_lekcja2.rb" />
         <option value="$PROJECT_DIR$/29maj_yield.rb" />
-        <option value="$PROJECT_DIR$/faktury_zadanie.rb" />
         <option value="$PROJECT_DIR$/faktury_zadanie_testy.rb" />
+        <option value="$PROJECT_DIR$/faktury_zadanie.rb" />
       </list>
     </option>
   </component>
@@ -302,9 +302,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1369" />
-    <option name="y" value="41" />
-    <option name="width" value="1723" />
+    <option name="x" value="1358" />
+    <option name="y" value="33" />
+    <option name="width" value="1782" />
     <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -407,7 +407,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1369" y="41" width="1723" height="1005" extended-state="0" />
+    <frame x="1358" y="33" width="1782" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -417,7 +417,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13087448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12643678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -881,18 +881,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42410713" vertical-offset="0" max-vertical-offset="672">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.18604651" vertical-offset="615" max-vertical-offset="1455">
+          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5116279" vertical-offset="630" max-vertical-offset="1425">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3794643" vertical-offset="0" max-vertical-offset="750">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>

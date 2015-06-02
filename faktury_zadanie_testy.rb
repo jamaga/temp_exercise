@@ -61,14 +61,17 @@ class InvoicesAppClientTest < Test::Unit::TestCase
   end
 
   def test_total_netto_price
+    #quantity x netto price
 
   end
 
   def test_vat_amount
+    #vat - 23% x netto price
 
   end
 
   def test_brutto_price
+    #netto price + vat
 
   end
 
@@ -81,7 +84,6 @@ end
 #   itd itd
 # - wczytywać dane klienta tj. firme, imię, nazwisko, adres, nip
 #   uzyc fakera
-#
 #
 # klasa pod klasa albo w innych plikach
 # moge klasa pod klasa
