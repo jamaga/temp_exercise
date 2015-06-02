@@ -19,18 +19,18 @@ module InvoicesApp
 
     def total_netto_price
       #jak wziac Product[:netto_price] zeby tu bylo dostepne
-     netto_price * quantity
+     @netto_price * @quantity
     end
-    #
-    # def vat_amount
-    #   #23% z Product[:netto_price]
-    #   netto_price * 0,23
-    # end
-    #
-    # def brutto_price
-    #   netto_price * 1,23
-    #   # netto_price + vat
-    # end
+
+    def vat_amount
+      #23% z Product[:netto_price]
+      (@netto_price * 0.23).round(2)
+    end
+
+    def brutto_price
+      (@netto_price * 1.23).round(2)
+      # netto_price + vat
+    end
 
   end
 
@@ -40,5 +40,8 @@ module InvoicesApp
 
 end
 
-p InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
+prod = InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
+p prod.total_netto_price
+p prod.vat_amount
+p prod.brutto_price
 

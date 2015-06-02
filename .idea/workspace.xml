@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faktury_zadanie.rb" afterPath="$PROJECT_DIR$/faktury_zadanie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faktury_zadanie_testy.rb" afterPath="$PROJECT_DIR$/faktury_zadanie_testy.rb" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,8 +62,8 @@
           <file leaf-file-name="faktury_zadanie.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3794643" vertical-offset="0" max-vertical-offset="750">
-                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.48660713" vertical-offset="123" max-vertical-offset="795">
+                  <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -187,8 +186,8 @@
           <file leaf-file-name="faktury_zadanie_testy.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.18604651" vertical-offset="615" max-vertical-offset="1455">
-                  <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.76744187" vertical-offset="720" max-vertical-offset="1455">
+                  <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -302,7 +301,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1358" />
+    <option name="x" value="1327" />
     <option name="y" value="33" />
     <option name="width" value="1782" />
     <option name="height" value="1005" />
@@ -407,7 +406,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="33" width="1782" height="1005" extended-state="0" />
+    <frame x="1327" y="33" width="1782" height="1005" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -881,18 +880,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18604651" vertical-offset="615" max-vertical-offset="1455">
-          <caret line="49" column="43" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.48660713" vertical-offset="123" max-vertical-offset="795">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3794643" vertical-offset="0" max-vertical-offset="750">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.76744187" vertical-offset="720" max-vertical-offset="1455">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
