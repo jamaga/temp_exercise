@@ -15,20 +15,43 @@ class InvoicesAppClientTest < Test::Unit::TestCase
     surname = Faker::Name.last_name
     c = InvoicesApp::Client.new
     c.last_name = surname
-    assert_equal c.last_name,surname
+    assert_equal c.last_name, surname
   end
-   itd itd
-  jak skoncze testy KLIENTA to moge napisac klase klienta
-  i tak robie z kazda funkcjonalnoscia
+
+  def test_client_address_city   #zapytac co z tym adresem http://www.rubydoc.info/github/stympy/faker/master/frames
+    address_city = Faker::Address.city
+    c = InvoicesApp::Client.new
+    c.clients_city = address_city
+    assert_equal c.clients_city, address_city
+  end
+
+  def test_client_address_street_address
+    address_street_name = Faker::Address.street_name
+    c = InvoicesApp::Client.new
+    c.clients_street = address_street_name
+    assert_equal c.clients_street, address_street_name
+  end
+
+  def test_client_nip
+    clients_nip = Faker::Number.number(10)
+    c = InvoicesApp::Client.new
+    c.nip = clients_nip
+    assert_equal c.nip, clients_nip
+  end
+
 end
 
 
-- wczytywać dane klienta tj. firme, imię, nazwisko, adres, nip
-  uzyc fakera
 
 
-klasa pod klasa albo w innych plikach
-moge klasa pod klasa
-docelowo - w roznych plikach
-to co pisze w testach moze sie zmieniac w klasie
-testy - daje ramy do pisania programu, po testyach klasy moge napisac klase w kodzie
+#
+#   itd itd
+# - wczytywać dane klienta tj. firme, imię, nazwisko, adres, nip
+#   uzyc fakera
+#
+#
+# klasa pod klasa albo w innych plikach
+# moge klasa pod klasa
+# docelowo - w roznych plikach
+# to co pisze w testach moze sie zmieniac w klasie
+# testy - daje ramy do pisania programu, po testyach klasy moge napisac klase w kodzie
