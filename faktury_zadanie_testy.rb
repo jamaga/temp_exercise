@@ -33,11 +33,12 @@ class InvoicesAppClientTest < Test::Unit::TestCase
   end
 
   def test_client_nip
-    clients_nip = Faker::Number.number(10)
-    c = InvoicesApp::Client.new
+    clients_nip = Faker::Number.number(10) #MOZE BYC Z KRESKAMI !!!! bo klienci moga podac z kreskami
     c.nip = clients_nip
     assert_equal c.nip, clients_nip
   end
+
+  # TESTTOWA KLASA MA BYC DLA PRODUCT!!!!
 
   def test_products_description
     products_decsription = Faker::Hacker.say_something_smart
@@ -56,6 +57,11 @@ class InvoicesAppClientTest < Test::Unit::TestCase
     c = InvoicesApp::Product.new(Faker::Hacker.say_something_smart, Faker::Number.digit, products_unit_netto_price)
     assert_equal c.netto_price, products_unit_netto_price
   end
+
+  # jak beda dwa wpisy na fakturze - zeby to liczyc (moge dopisac kolejne testy
+  # gdzie dodam dwa elementy - moge dodac testy)
+  # NIE PRODUKT - INOVOICEITEM - bo to nie produkt!
+  # zronbic kod invoica - cala faktura moze zwracac TOTAL PRICE, ma zwracac ile jest netto, data zaplaty itp
 
   def test_total_netto_price
     #quantity x netto price
@@ -78,7 +84,6 @@ class InvoicesAppClientTest < Test::Unit::TestCase
 end
 
 
-#
 #   itd itd
 # - wczytywać dane klienta tj. firme, imię, nazwisko, adres, nip
 #   uzyc fakera
