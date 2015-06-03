@@ -8,13 +8,15 @@ module InvoicesApp
   end
   # obsluga adresow (przylad z house number)
 
-  class Product  #zminic na invoice item
+  class InvoiceItems  #zminic na invoice item
     attr_accessor :description, :quantity, :netto_price
 
     def initialize(description, quantity, netto_price)
       @description = description
       @quantity = quantity
       @netto_price = netto_price
+    rescue
+      print 'mialy byc TRZY argumenty podane GLABIE' #JAK PRZECHWYCIC TU BLAD
 
       # if description == nil || quantity == nil || netto_price == nil
       #   raise 'mialy byc TRZY argumenty podane GLABIE'
@@ -64,7 +66,7 @@ module InvoicesApp
   end
 end
 
-prod = InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
+prod = InvoicesApp::InvoiceItems.new('safsdfsdfsdf', 3, 4.5)
 p prod.total_netto_price
 p prod.vat_amount
 p prod.brutto_price

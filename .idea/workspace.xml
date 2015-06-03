@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03czerwiec_debug.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03czerwiec_dopisac_do_testow.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03czerwiec_dopisac_do_testow_testy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03czerwiec_klasy.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faktury_zadanie.rb" afterPath="$PROJECT_DIR$/faktury_zadanie.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faktury_zadanie_testy.rb" afterPath="$PROJECT_DIR$/faktury_zadanie_testy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,14 +27,14 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3719626">
+    <splitter split-orientation="horizontal" split-proportion="0.5003385">
       <split-first>
         <leaf>
-          <file leaf-file-name="faktury_zadanie.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="faktury_zadanie.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1170">
-                  <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+                <state vertical-scroll-proportion="0.41624364" vertical-offset="609" max-vertical-offset="1200">
+                  <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -65,11 +60,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="03czerwiec_dopisac_do_testow.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="03czerwiec_dopisac_do_testow.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/03czerwiec_dopisac_do_testow.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.65905094" vertical-offset="0" max-vertical-offset="569">
-                  <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -179,11 +174,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="faktury_zadanie_testy.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="faktury_zadanie_testy.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.740741" vertical-offset="958" max-vertical-offset="1500">
-                  <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+                <state vertical-scroll-proportion="2.606383" vertical-offset="0" max-vertical-offset="1590">
+                  <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -199,11 +194,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="03czerwiec_dopisac_do_testow_testy.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="03czerwiec_dopisac_do_testow_testy.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/03czerwiec_dopisac_do_testow_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.103690684" vertical-offset="271" max-vertical-offset="840">
-                  <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="840">
+                  <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -294,12 +289,12 @@
         <option value="$PROJECT_DIR$/29maj_lekcja_includeextence.rb" />
         <option value="$PROJECT_DIR$/29maj_lekcja2.rb" />
         <option value="$PROJECT_DIR$/29maj_yield.rb" />
-        <option value="$PROJECT_DIR$/faktury_zadanie.rb" />
-        <option value="$PROJECT_DIR$/faktury_zadanie_testy.rb" />
         <option value="$PROJECT_DIR$/03czerwiec_debug.rb" />
         <option value="$PROJECT_DIR$/03czerwiec_klasy.rb" />
         <option value="$PROJECT_DIR$/03czerwiec_dopisac_do_testow_testy.rb" />
         <option value="$PROJECT_DIR$/03czerwiec_dopisac_do_testow.rb" />
+        <option value="$PROJECT_DIR$/faktury_zadanie_testy.rb" />
+        <option value="$PROJECT_DIR$/faktury_zadanie.rb" />
       </list>
     </option>
   </component>
@@ -307,10 +302,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1355" />
+    <option name="x" value="1439" />
     <option name="y" value="42" />
     <option name="width" value="1681" />
-    <option name="height" value="740" />
+    <option name="height" value="935" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -412,13 +407,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1355" y="42" width="1681" height="740" extended-state="6" />
+    <frame x="1439" y="42" width="1681" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.040192924" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24235006" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -824,26 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1170">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03czerwiec_klasy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.740741" vertical-offset="958" max-vertical-offset="1500">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -888,18 +867,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03czerwiec_dopisac_do_testow_testy.rb">
+    <entry file="file://$PROJECT_DIR$/03czerwiec_dopisac_do_testow.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.103690684" vertical-offset="271" max-vertical-offset="840">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03czerwiec_dopisac_do_testow.rb">
+    <entry file="file://$PROJECT_DIR$/03czerwiec_dopisac_do_testow_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65905094" vertical-offset="0" max-vertical-offset="569">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="840">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.606383" vertical-offset="0" max-vertical-offset="1590">
+          <caret line="98" column="22" selection-start-line="98" selection-start-column="22" selection-end-line="98" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faktury_zadanie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41624364" vertical-offset="609" max-vertical-offset="1200">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
           <folding />
         </state>
       </provider>
