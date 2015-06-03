@@ -4,7 +4,7 @@ require 'faker'
 module InvoicesApp
 
   class Client
-    attr_accessor :first_name, :last_name, :clients_city, :clients_street, :nip
+    attr_accessor :first_name, :last_name, :clients_street, :nip, :items
   end
   # obsluga adresow (przylad z house number)
 
@@ -26,21 +26,16 @@ module InvoicesApp
       # go przechwycyc i cos z nim zrobic - pokazac go w odpowiedni sposob - mielismy
     end
 
-    #jak zrobic zeby rzucil bledem (moim) jak nie bedzie jakiegos arg!!!!
-
     def total_netto_price
-      #jak wziac Product[:netto_price] zeby tu bylo dostepne
      (@netto_price * @quantity).round(2)
     end
 
     def vat_amount
-      #23% z Product[:netto_price]
       (@netto_price * 0.23).round(2)
     end
 
     def brutto_price
       (@netto_price * 1.23).round(2)
-      # netto_price + vat
     end
 
   end
@@ -48,7 +43,7 @@ module InvoicesApp
   class Invoice
     attr_accessor :client, :invoice_items
 
-    { company: 'My Company', first_name: 'Agata', last_name: 'Kowalska', city: 'lublin', nip: '719-381-37-18', items: [
+    { company: 'My Company', first_name: 'Agata', last_name: 'Kowalska', nip: '719-381-37-18', items: [
         { description: 'usługi informatyczne', quantity: 1, net_price: 1000 },
         { description: 'prosty projekt graficzny', quantity: 1, net_price: 800 }
     ] }
@@ -56,12 +51,12 @@ module InvoicesApp
       client_on_invoice = InvoicesApp::Client.new
       client_on_invoice.first_name = hash_faktury[:first_name]
       client_on_invoice.last_name = hash_faktury[:last_name]
-      client_on_invoice.nip = hash_faktury[:nip]
+      client_on_invoice.nip = hash_faktury[:nip]   #jak tu wlozyc odpowiednio co ma byc - kilka elementow do items
+      #items sa tablica - musze wrzucic w itemy to co bylo podane
+      client_on_invoice.items = hash_faktury
 
       @client = client_on_invoice
     end
-
-
 
     def create(invoice_data)
       @tablica_faktury << InvoicesApp::InvoiceItems.new(invoice_data)
@@ -88,8 +83,6 @@ f = InvoicesApp::Invoice.new({ company: 'My Company', first_name: 'Agata', last_
     { description: 'prosty projekt graficzny', quantity: 1, net_price: 800 }
 ] })
 p f
-
-
 
 
 
