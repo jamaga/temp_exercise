@@ -46,30 +46,57 @@ module InvoicesApp
   end
 
   class Invoice
-    @@invoice_count = 0
-    attr_accessor :client, :products
+    attr_accessor :client, :invoice_items
 
-    #muis przechowywac prodokty i jednego klienta + liete produktow
-    # [rzejc] po prdottack - dodac brutto price i miec na fakturze
-    # attr    - klient  i prducts - bede arrayami   w initialize klient i produkty
+    { company: 'My Company', first_name: 'Agata', last_name: 'Kowalska', city: 'lublin', nip: '719-381-37-18', items: [
+        { description: 'usługi informatyczne', quantity: 1, net_price: 1000 },
+        { description: 'prosty projekt graficzny', quantity: 1, net_price: 800 }
+    ] }
+    def initialize(hash_faktury)
+      client_on_invoice = InvoicesApp::Client.new
+      client_on_invoice.first_name = hash_faktury[:first_name]
+      client_on_invoice.last_name = hash_faktury[:last_name]
+      client_on_invoice.nip = hash_faktury[:nip]
 
-    def initialize(client, products)
-      @client = client
-      @products = products
-      @@invoice_count += 1
+      @client = client_on_invoice
     end
 
-    def self.invoice_count
-      @@invoice_count
+
+
+    def create(invoice_data)
+      @tablica_faktury << InvoicesApp::InvoiceItems.new(invoice_data)
     end
+
+    #
+    # def delete(date)
+    #
+    # end
+    #
+    # def find(date)
+    #   @data.detect { |item| item['date'] == date } #jak tu pokazac cala fakture???
+    # end
+    #
+    # def purge
+    #   @tablica_faktury = []
+    # end
 
   end
 end
 
-prod = InvoicesApp::InvoiceItems.new('safsdfsdfsdf', 3, 4.5)
-p prod.total_netto_price
-p prod.vat_amount
-p prod.brutto_price
+f = InvoicesApp::Invoice.new({ company: 'My Company', first_name: 'Agata', last_name: 'Kowalska', city: 'lublin', nip: '719-381-37-18', items: [
+    { description: 'usługi informatyczne', quantity: 1, net_price: 1000 },
+    { description: 'prosty projekt graficzny', quantity: 1, net_price: 800 }
+] })
+p f
+
+
+
+
+
+# prod = InvoicesApp::InvoiceItems.new('safsdfsdfsdf', 3, 4.5)
+# p prod.total_netto_price
+# p prod.vat_amount
+# p prod.brutto_price
 
 # prod2 = InvoicesApp::Product.new('safsdfsdfsdf', 3, 4.5)
 # p prod2
