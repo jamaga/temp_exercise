@@ -12,11 +12,13 @@ module InvoicesApp
     attr_accessor :description, :quantity, :netto_price
 
     def initialize(description, quantity, netto_price)
-      @description = description
-      @quantity = quantity
-      @netto_price = netto_price
-    rescue
-      print 'mialy byc TRZY argumenty podane GLABIE' #JAK PRZECHWYCIC TU BLAD
+      begin
+        @description = description
+        @quantity = quantity
+        @netto_price = netto_price
+      rescue
+        print 'mialy byc TRZY argumenty podane GLABIE' #JAK PRZECHWYCIC TU BLAD
+      end
 
       # if description == nil || quantity == nil || netto_price == nil
       #   raise 'mialy byc TRZY argumenty podane GLABIE'
@@ -47,18 +49,32 @@ module InvoicesApp
         { description: 'usługi informatyczne', quantity: 1, net_price: 1000 },
         { description: 'prosty projekt graficzny', quantity: 1, net_price: 800 }
     ] }
-    def initialize(hash_faktury)
+    def initialize(hash_faktury)  # powinno byc data - nie hasz faktury
       client_on_invoice = InvoicesApp::Client.new
       client_on_invoice.first_name = hash_faktury[:first_name]
       client_on_invoice.last_name = hash_faktury[:last_name]
       client_on_invoice.nip = hash_faktury[:nip]   #jak tu wlozyc odpowiednio co ma byc - kilka elementow do items
       #items sa tablica - musze wrzucic w itemy to co bylo podane
-      client_on_invoice.items = hash_faktury
+      client_on_invoice.items = hash_faktury  #
 
       @client = client_on_invoice
     end
 
-    def create(invoice_data)
+
+    #
+    # InvoicesApp::Client.new(hash_faktury)
+    #
+    # InvoicesApp::InvoiceItems.new(item_hash)
+    #tworzac klienta
+    #itemy : ln @tablica_faktury << InvoicesApp::InvoiceItems.new(invoice_data)
+    # a client_on_invoice.items = hash_faktury    -- nie jest potrzebne
+    # dobrze jest komentowac sobie funkcje - co robi funkcja
+    # jak sie rozbije na pliki to sie bedzie latwiej lapac
+
+    def create(invoice_data)  # w odpowiednim miejscu uzyc
+      #invoice data - moze byc caly klucz od itemow   - client_on_invoice.items
+      #moze zamiast przypisywac do atrybutu - invoice.add client new
+      #i przypisac
       @tablica_faktury << InvoicesApp::InvoiceItems.new(invoice_data)
     end
 

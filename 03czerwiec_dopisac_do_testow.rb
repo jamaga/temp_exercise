@@ -5,11 +5,12 @@ class Grains
   end
 
   def self.total
-    wynik = 0
-    (1..64).each do |x|
-      wynik += 2 ** (x - 1)
-    end
-    wynik
+    square(65) - 1
+    # wynik = 0
+    # (1..64).each do |x|
+    #   wynik += 2 ** (x - 1)
+    # end
+    # wynik
   end
 end
 
