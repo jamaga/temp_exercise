@@ -55,13 +55,16 @@ module InvoicesApp
       client_on_invoice.last_name = hash_faktury[:last_name]
       client_on_invoice.nip = hash_faktury[:nip]   #jak tu wlozyc odpowiednio co ma byc - kilka elementow do items
       #items sa tablica - musze wrzucic w itemy to co bylo podane
-      client_on_invoice.items = hash_faktury  #
+      # client_on_invoice.items = hash_faktury  #
+
+      client_on_invoice.items = hash_faktury[:items].map{ |item| InvoicesApp::InvoiceItems.new(item) }
+      # teraz client_on_inv_items ma elementy    - teraz cos z tym zrobic
+      #podobnie z klientem powinno byc - lepiej caly wielki hasz przekazac w konstruktorze , w paametrze client_on_invoice  i
+      #w kliencie przypisywac atrybuty do niego
 
       @client = client_on_invoice
     end
 
-
-    #
     # InvoicesApp::Client.new(hash_faktury)
     #
     # InvoicesApp::InvoiceItems.new(item_hash)
