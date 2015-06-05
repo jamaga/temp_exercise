@@ -9,7 +9,6 @@ class SimpleLoggerTest < Test::Unit::TestCase
 
   def test_info
     assert_equal "#{Time.now} | info | some info", SimpleLogger.info("some info")
-
   end
 
   def test_warning
