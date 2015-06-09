@@ -1,32 +1,50 @@
 class MyHouse
   def self.recite
-    new.recite
+    MyHouse.new.recite
   end
 
   def recite
-    (1..pieces.length).map { |i| line(i) }.join("\n")
+    12.times.reduce([]) do |lyrics, num|
+      lyrics << verse(num)
+    end.join("\n")
   end
 
-  def line(i)
-    "This is %s.\n" % pieces.last(i).map { |s| s.join("\n") }.join(' ')
+  def verse(num)
+    this_is_the(num) + that(num)
   end
 
-  private
+  czas = [
+      'lay in',
+      'ate',
+      'killed',
+      'worried',
+      'tossed',
+      'milked',
+      'kissed',
+      'married',
+      'woke',
+      'kept',
+      'belonged to'
+  ]
 
-  def pieces
-    [
-        ['the horse and the hound and the horn', 'that belonged to'],
-        ['the farmer sowing his corn', 'that kept'],
-        ['the rooster that crowed in the morn', 'that woke'],
-        ['the priest all shaven and shorn', 'that married'],
-        ['the man all tattered and torn', 'that kissed'],
-        ['the maiden all forlorn', 'that milked'],
-        ['the cow with the crumpled horn', 'that tossed'],
-        ['the dog', 'that worried'],
-        ['the cat', 'that killed'],
-        ['the rat', 'that ate'],
-        ['the malt', 'that lay in'],
-        ['the house that Jack built']
-    ]
+  rzecz = [
+      'house that Jack built.',
+      'malt',
+      'rat',
+      'cat',
+      'dog',
+      'cow with the crumpled horn',
+      'maiden all forlorn',
+      'man all tattered and torn',
+      'priest all shaven and shorn',
+      'rooster that crowed in the morn',
+      'farmer sowing his corn',
+      'horse and the hound and the horn'
+  ]
+
+  def x(verse)
+    "This is the #{rzecz[verse]}\n "
+  end
+
   end
 end

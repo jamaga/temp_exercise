@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05czerwiec_pdom_rymy.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05czerwiec_pdom_rymy_testy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09czerwiec_cwiczenie2.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09czerwiec_cwiczenie2_testy.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09czerwiec_cwiczenie_z_blokami.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie_testy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05czerwiec_pdom_rymy.rb" afterPath="$PROJECT_DIR$/05czerwiec_pdom_rymy.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/05czerwiec_statyczne_logger.rb" afterPath="$PROJECT_DIR$/05czerwiec_statyczne_logger.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_ex.iws" />
@@ -28,7 +33,7 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42240825">
+    <splitter split-orientation="horizontal" split-proportion="0.42304832">
       <split-first>
         <leaf>
           <file leaf-file-name="faktury_zadanie.rb" pinned="false" current-in-tab="false">
@@ -44,28 +49,48 @@
           <file leaf-file-name="05czerwiec_statyczne_logger.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/05czerwiec_statyczne_logger.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-                  <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="705">
+                  <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="05czerwiec_pdom_rymy_testy.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="09czerwiec_liczby_rozszerzenie.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+                  <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="09czerwiec_cwiczenie_z_blokami.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie_z_blokami.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+                  <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="09czerwiec_cwiczenie2.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie2.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6448598" vertical-offset="0" max-vertical-offset="535">
+                  <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="05czerwiec_pdom_rymy_testy.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/05czerwiec_pdom_rymy_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.061728396" vertical-offset="0" max-vertical-offset="1590">
-                  <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="04czerwiec_debug.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/04czerwiec_debug.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.555555" vertical-offset="0" max-vertical-offset="1335">
-                  <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1590">
+                  <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
                   <folding />
                 </state>
               </provider>
@@ -111,16 +136,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="03czerwiec_debug.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/03czerwiec_debug.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-                  <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -145,11 +160,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="05czerwiec_pdom_rymy.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="05czerwiec_pdom_rymy.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/05czerwiec_pdom_rymy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5555556" vertical-offset="0" max-vertical-offset="729">
-                  <caret line="27" column="36" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+                  <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
@@ -179,7 +194,27 @@
             <entry file="file://$PROJECT_DIR$/05czerwiec_statyczne_logger_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-                  <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="09czerwiec_liczby_rozszerzenie_testy.rb" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie_testy.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="09czerwiec_cwiczenie2_testy.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie2_testy.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6728972" vertical-offset="0" max-vertical-offset="535">
+                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -205,26 +240,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="28maj_debug.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/28maj_debug.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="810">
-                  <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="27maj_cwiczenie2.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/27maj_cwiczenie2.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-second>
     </splitter>
@@ -235,11 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/19_maj_stubownie.rb" />
-        <option value="$PROJECT_DIR$/19_maj_stubowanie_testy.rb" />
-        <option value="$PROJECT_DIR$/19maj_httparty.rb" />
-        <option value="$PROJECT_DIR$/19maj_homework_fixtures.yml" />
-        <option value="$PROJECT_DIR$/19maj_homework.rb" />
         <option value="$PROJECT_DIR$/19maj_homework_tests.rb" />
         <option value="$PROJECT_DIR$/19_maj_fixtures.yml" />
         <option value="$PROJECT_DIR$/22maj_program.rb" />
@@ -283,9 +293,14 @@
         <option value="$PROJECT_DIR$/05czerwiec_cwiczenie_yield.rb" />
         <option value="$PROJECT_DIR$/05czerwiec_aliasowanie.rb" />
         <option value="$PROJECT_DIR$/05czerwiec_statyczne_logger_testy.rb" />
-        <option value="$PROJECT_DIR$/05czerwiec_statyczne_logger.rb" />
         <option value="$PROJECT_DIR$/05czerwiec_pdom_rymy_testy.rb" />
         <option value="$PROJECT_DIR$/05czerwiec_pdom_rymy.rb" />
+        <option value="$PROJECT_DIR$/05czerwiec_statyczne_logger.rb" />
+        <option value="$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie_testy.rb" />
+        <option value="$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie.rb" />
+        <option value="$PROJECT_DIR$/09czerwiec_cwiczenie_z_blokami.rb" />
+        <option value="$PROJECT_DIR$/09czerwiec_cwiczenie2_testy.rb" />
+        <option value="$PROJECT_DIR$/09czerwiec_cwiczenie2.rb" />
       </list>
     </option>
   </component>
@@ -293,10 +308,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1379" />
-    <option name="y" value="39" />
-    <option name="width" value="1657" />
-    <option name="height" value="875" />
+    <option name="x" value="12" />
+    <option name="y" value="34" />
+    <option name="width" value="1387" />
+    <option name="height" value="681" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -398,7 +413,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1379" y="39" width="1657" height="875" extended-state="0" />
+    <frame x="12" y="34" width="1387" height="681" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -477,46 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/26maj_rozszerzanie_obiektow.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27maj_singleton_przyklad.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="675">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/22maj_lista_dzialania.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/26maj_rozszerzenie_obiektow_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="630">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27maj_cwiczenie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/27maj_lekcja.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32846716" vertical-offset="0" max-vertical-offset="685">
@@ -829,14 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05czerwiec_statyczne_logger.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/04czerwiec_kod_do_testow.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
@@ -845,18 +812,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05czerwiec_statyczne_logger_testy.rb">
+    <entry file="file://$PROJECT_DIR$/05czerwiec_pdom_rymy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05czerwiec_aliasowanie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="179" max-vertical-offset="720">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -869,18 +828,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05czerwiec_pdom_rymy_testy.rb">
+    <entry file="file://$PROJECT_DIR$/05czerwiec_aliasowanie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.061728396" vertical-offset="0" max-vertical-offset="1590">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="720">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05czerwiec_pdom_rymy.rb">
+    <entry file="file://$PROJECT_DIR$/05czerwiec_pdom_rymy_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5555556" vertical-offset="0" max-vertical-offset="729">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="861" max-vertical-offset="1590">
+          <caret line="92" column="23" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05czerwiec_statyczne_logger.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="705">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05czerwiec_statyczne_logger_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie_z_blokami.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie2_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6728972" vertical-offset="0" max-vertical-offset="535">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie2.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6448598" vertical-offset="0" max-vertical-offset="535">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding />
         </state>
       </provider>

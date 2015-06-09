@@ -11,20 +11,24 @@
 class SimpleLogger
 
   def self.error(msg) #statyczne wywolanie w testach
-    "#{Time.now} | error | #{msg}"
+    show_message("error", msg)
   end
 
   def self.info(msg)
-    "#{Time.now} | info | #{msg}"
+    show_message("info", msg)
   end
 
   def self.warning(msg)
-    "#{Time.now} | warning | #{msg}"
+    show_message("warning", msg)
+  end
+
+  private
+
+  def self.show_message(type, msg)
+    "#{Time.now} | #{type} | #{msg}"
   end
 
 end
-
-
 
 
 #
