@@ -1,6 +1,4 @@
-require 'test/unit'
 require './../lib/client' #katalog wyzej ..
-require 'faker'
 
 class InvoicesAppClientTest < Test::Unit::TestCase #w kazdym pliku musi byc Class tez
 

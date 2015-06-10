@@ -1,5 +1,4 @@
-require 'rubygems'
-require 'faker'
+require './../lib/invoice'
 
 class InvoicesAppInvoiceTest < Test::Unit::TestCase
 

@@ -8,15 +8,8 @@ module InvoicesApp
         @quantity = quantity
         @netto_price = netto_price
       rescue
-        print 'mialy byc TRZY argumenty podane GLABIE' #JAK PRZECHWYCIC TU BLAD
+        print 'mialy byc TRZY argumenty podane GLABIE'
       end
-
-      # if description == nil || quantity == nil || netto_price == nil
-      #   raise 'mialy byc TRZY argumenty podane GLABIE'
-      # end
-
-      # teraz  -wyjatek mi sie rzuci jak nie podam netto price - trzeba
-      # go przechwycyc i cos z nim zrobic - pokazac go w odpowiedni sposob - mielismy
     end
 
     def total_netto_price
