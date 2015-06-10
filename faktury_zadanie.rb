@@ -6,7 +6,7 @@ module InvoicesApp
   class Client
     attr_accessor :first_name, :last_name, :clients_street, :nip, :items
   end
-  # obsluga adresow (przylad z house number)
+  # obsluga adresow (przylad z house number) - jak to wygenerowac w fakerze zeby nie robic 10 razy
 
   class InvoiceItems  #zminic na invoice item
     attr_accessor :description, :quantity, :netto_price
@@ -58,6 +58,9 @@ module InvoicesApp
       # client_on_invoice.items = hash_faktury  #
 
       client_on_invoice.items = hash_faktury[:items].map{ |item| InvoicesApp::InvoiceItems.new(item) }
+
+      p client_on_invoice.items
+
       # teraz client_on_inv_items ma elementy    - teraz cos z tym zrobic
       #podobnie z klientem powinno byc - lepiej caly wielki hasz przekazac w konstruktorze , w paametrze client_on_invoice  i
       #w kliencie przypisywac atrybuty do niego
@@ -67,9 +70,9 @@ module InvoicesApp
 
     # InvoicesApp::Client.new(hash_faktury)
     #
-    # InvoicesApp::InvoiceItems.new(item_hash)
+    # InvoicesApp::InvoiceItem.new(item_hash)
     #tworzac klienta
-    #itemy : ln @tablica_faktury << InvoicesApp::InvoiceItems.new(invoice_data)
+    #itemy : ln @tablica_faktury << InvoicesApp::InvoiceItem.new(invoice_data)
     # a client_on_invoice.items = hash_faktury    -- nie jest potrzebne
     # dobrze jest komentowac sobie funkcje - co robi funkcja
     # jak sie rozbije na pliki to sie bedzie latwiej lapac
@@ -105,7 +108,7 @@ p f
 
 
 
-# prod = InvoicesApp::InvoiceItems.new('safsdfsdfsdf', 3, 4.5)
+# prod = InvoicesApp::InvoiceItem.new('safsdfsdfsdf', 3, 4.5)
 # p prod.total_netto_price
 # p prod.vat_amount
 # p prod.brutto_price
