@@ -13,7 +13,7 @@ class InvoicesAppClientTest < Test::Unit::TestCase
     assert_equal requested_time.time_string, '01:00:00'
   end
 
-  def test_time_small_zero
+  def test_time_zero
     requested_time = Timer.new(0)
     assert_equal requested_time.time_string, '00:00:00'
   end
