@@ -9,6 +9,8 @@ class LibraryTest < Test::Unit::TestCase
         { id: 2, title: "Chlopcy z pracu broni" },
         { id: 3, title: "Pan Tadeusz" },
     ]
+
+    @books_out_of_lib = [ ]
   end
 
   def test_listing_of_books
@@ -21,9 +23,15 @@ class LibraryTest < Test::Unit::TestCase
     assert_equal library.get_id("Alicja w krainie czarow"), 1
   end
 
-  # def test_return_book
-  #   library = Library.new(@data)
-  #   assert_equal library.return_book(1)
-  # end
+  def test_get_book
+    library = Library.new(@data)
+    @data = library.get_book(1)
+    assert_equal @data, [{ id: 2, title: "Chlopcy z pracu broni" }, { id: 3, title: "Pan Tadeusz" }]
+  end
+
+  def test_return_book
+    
+  end
 
 end
+
