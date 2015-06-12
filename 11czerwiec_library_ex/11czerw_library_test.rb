@@ -25,14 +25,20 @@ class LibraryTest < Test::Unit::TestCase
 
   def test_get_book
     library = Library.new(@data)
-    @data = library.get_book(1)
-    assert_equal @data, [{ id: 2, title: "Chlopcy z pracu broni" }, { id: 3, title: "Pan Tadeusz" }]
-   # assert_equal @data.list, [{ id: 2, title: "Chlopcy z pracu broni" }, { id: 3, title: "Pan Tadeusz" }]
+    assert_equal library.get_book(1), "Alicja w krainie czarow"
+
   end
 
-  def test_return_book
-    library = Library.new(@data)
-  end
+  # def test_get_book
+  #   library = Library.new(@data)
+  #   @data = library.get_book(1)
+  #   assert_equal @data, [{ id: 2, title: "Chlopcy z pracu broni" }, { id: 3, title: "Pan Tadeusz" }]
+  #  #assert_equal library.list, [{ id: 2, title: "Chlopcy z pracu broni" }, { id: 3, title: "Pan Tadeusz" }]
+  # end
+  #
+  # def test_return_book
+  #   library = Library.new(@data)
+  # end
 
 end
 
