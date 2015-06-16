@@ -7,7 +7,7 @@ class Library
   end
 
   def list
-    @library_db.map { |book| book[:title] }
+    @library_db.sort_by { |book| book[:id] }.map { |book| book[:title] }
   end
 
   def get_id(title)
@@ -15,30 +15,16 @@ class Library
   end
 
   def get_book(id)
-    found_book_title = @library_db.detect { |book| book[:id] == id }[:title]
-    found_book_title
-    found_book = { id: id, title: found_book_title }
-
-    @library_db.reject { |one_book| one_book[:id] == id}[:title]
+    found_book = @library_db.detect { |book| book[:id] == id }
     @checkout_books << found_book
-
+    @library_db.delete_if { |book| book[:id] == id }
+    found_book[:title]
   end
 
-  # def return_book(id)
-  #   @library_db <<
-  # end
-
+  def return_book(id)
+    return_book = @checkout_books.detect { |book| book[:id] == id }
+    @library_db << return_book
+    @checkout_books.delete_if { |book| book[:id] == id }
+    return_book[:title]
+  end
 end
-
-
-# 1. Błąd: undefined method `list' for występuje gdyż @data nie jest
-#  obiektem! Twoim obiektem jest library i na tym możesz wywołać metodę list
-# 2. Testy: test_get_book i test_return_book są źle napisane gdyż:
-#     a.) nadpisujesz zmienną @data a nie powinnaś (@data powinno być tylko
-#  przekazywane do konstruktora)
-
-#     b.) library.get_book(1) powinno zwracać książkę
-# którą wypożyczyłaś czyli np. "Alicja w krainie czarow" a nie liste!!!
-#
-# Więc w tym wypadku powinnaś
-# najpierw "wypożyczyć" książkę a później sprawdzić listę.
