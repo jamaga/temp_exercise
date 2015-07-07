@@ -23,7 +23,14 @@ class MyenumerableTest < Test::Unit::TestCase
   end
 
   def test_my_select
-    
+    tablica = [2, 3, 4, 7, 8]
+    tablica2 = tablica.my_select { |elem| elem.even? }
+    assert_equal [2, 4, 8], tablica2
+  end
+
+  def test_my_all?
+    tablica = [2, 5, 7, 1]
+    assert_equal false, tablica.my_all? { |elem| elem >= 10 }
   end
 
 end
