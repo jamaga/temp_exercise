@@ -33,5 +33,20 @@ class MyenumerableTest < Test::Unit::TestCase
     assert_equal false, tablica.my_all? { |elem| elem >= 10 }
   end
 
+  def test_my_any?
+    tablica = [2, 5, 7, 1]
+    assert_equal true, tablica.my_any? { |elem| elem >= 5 }
+  end
+
+  def test_my_none?
+    tablica = [2, 5, 7, 1]
+    assert_equal true, tablica.my_none? { |elem| elem == 0 }
+  end
+
+  def test_my_map
+    tablica = [1, 2, 3, 4]
+    assert_equal [1, 4, 9, 16], tablica.my_map { |elem| elem*elem }
+  end
+
 end
 

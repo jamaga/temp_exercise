@@ -62,6 +62,8 @@ module Myenumerable
     #new_array = []
     #self[1..-1].my_each { |value| new_array << yield(value) }
     #self.drop(1).my_map { |element| self.first()}
+
+   #MY INJECT I NEED HELP :(
     def my_inject
       element = self.first
       self.drop(1).each { |item| element = yield(element, item) }
