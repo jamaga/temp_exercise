@@ -26,7 +26,6 @@ class Silniacwiczenie
 
   # p silnia2(5)
 
-
     # for i in 1..8 do
     #   puts i
     # end

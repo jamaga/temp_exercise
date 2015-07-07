@@ -1,10 +1,4 @@
-# [1,2,3,4].my_each{|num|
-#   puts num.to_s
-# }
-# # => 1 2 3 4
-#moja funkcja each - rozszerzyc modul enumerable
-
-module Enumerable
+module Myenumerable
 
   def my_each
    # yield #blok ktory przekazuje!!!!
@@ -64,32 +58,35 @@ module Enumerable
 
   #inject - podobny
   # na tablicy - inject - operuje na obecnym elelemcie ktory jest w petli i cos na nim robi
-  def my_inject
 
-  end
+    #new_array = []
+    #self[1..-1].my_each { |value| new_array << yield(value) }
+    #self.drop(1).my_map { |element| self.first()}
+    def my_inject
+      element = self.first
+      self.drop(1).each { |item| element = yield(element, item) }
+      element
+    end
 
 end
 
-[4,1,3,2].my_each{|num|
- puts num.to_s
-}#.sort  #kro-ka operuje na poprzednim obiekcie!!
+
+# wazne
+# [4,1,3,2].my_each{|num|
+#  puts num.to_s
+# }
+
+#.sort  #kro-ka operuje na poprzednim obiekcie!!
 #musimu zwrocic obiek t na ktorym chcemy oerowacc
 
 #self - w klasach sie stosuje (uproszczenie)
 # nie moge zastosowac each
 
-p "-------------------------------"
-%w(kot pies mysz).my_each_with_index{ |item, index|
-  puts "#{item} - #{index}"
-}
 
-#dopisac dwie funkcje!!!!!!
-# .all?   funkcja
-# any?
-# none?
-# dopisac do modulu 3 funkcje - te powyzej
-# ktore robia ro samo co orygubaly
-# moga dotykac moich funkcji zbudowanych    -no my_each
-# nie moge dotykac any non    - ale ze swojej jak zbuduje to moge skorzystac
-# co z fakturami    -   co teraz powinnam zrobic - jak nie oisc to pomyskec i zapisac
-# zeby wytlumaczyc
+
+# wazne
+# p "-------------------------------"
+# %w(kot pies mysz).my_each_with_index{ |item, index|
+#   puts "#{item} - #{index}"
+# }
+
