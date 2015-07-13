@@ -59,7 +59,12 @@ p hash[:a].call[:b]
 # tutaj - zeby przekazac do funkcji anonimoej jakis parametr
 # i zeby ten parametr zastapil wartosc s
 
-#moe byc ze strzalke sie stosuje jak nie mamy parametrow
+#moe byc ze strzalke sie stosuje jak nie mamy parametrow   - rozwiazanie:     ->(x) {  }
+#rownowazne :
+
+# p = ->(x) { x + 1 }
+# p = lambda { |x| x + 1 }
+
 hash = {
     attr: 'value',
     a: lambda do |param|
@@ -81,4 +86,50 @@ p hash[:a].call(27)
 # wywolac tak aby wyswietlic wartosc z klucz b tego hasha
 
 p hash[:a].call(27)[:b]
+
+p '--------------------------------'
+
+
+# c i e sa kluczami losowymi gdzie wystapila lambda
+#napisac petle / funkcje ktora wypisuje wynik tylko z funkcji anonimowych
+# wszystkie inne atrybuty pomija
+# nie wiem ze funkcja anonimowa jest pod danym kluczem
+
+h = {
+    a: 1,
+    b: 5,
+    c: -> {
+      'Hello'
+    },
+    d: 66,
+    e: -> {
+      'World'
+    }
+}
+# albo sprawdzic czy funkcja jes typu lambda
+# lub czy si ewywoluje - callable
+# gorzej - sprawdzic czy nie jest obiektem, tablica etc - tez mozna
+# respond_to   i defined
+
+# ROZWIAZANIA :
+# h[:c].is_a? Proc
+# h[:c].respond_to? :call
+# h[:c].class == ‘Proc’
+# h[:c].lambda?
+
+h.each do |klucz, wartosc|
+  if wartosc.respond_to? :call
+    p wartosc.call
+  end
+end
+
+#zmodyfikowac zeby dodac wszystkie wartosci ktore sa wartosciami liczbowymi
+
+wynik = 0
+h.each do |klucz, wartosc|
+  if wartosc.kind_of?(Integer)
+    wynik += wartosc
+  end
+end
+p wynik
 
