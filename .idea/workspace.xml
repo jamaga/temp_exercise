@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14lipec_shopping_cart.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/14lipec_shopping_cart.rb" afterPath="$PROJECT_DIR$/14lipec_shopping_cart.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb" afterPath="$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -114,8 +113,8 @@
           <file leaf-file-name="14lipec_shopping_cart.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/14lipec_shopping_cart.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6499134" vertical-offset="285" max-vertical-offset="1800">
-                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.49393415" vertical-offset="465" max-vertical-offset="1860">
+                  <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -188,8 +187,8 @@
           <file leaf-file-name="14lipiec_shopping_cart_tests.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.51993066" vertical-offset="0" max-vertical-offset="577">
-                  <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.75389946" vertical-offset="0" max-vertical-offset="577">
+                  <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -303,8 +302,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1307" />
-    <option name="y" value="-478" />
+    <option name="x" value="1305" />
+    <option name="y" value="-480" />
     <option name="width" value="1843" />
     <option name="height" value="1019" />
   </component>
@@ -501,7 +500,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1307" y="-478" width="1843" height="1019" extended-state="0" />
+    <frame x="1305" y="-480" width="1843" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -952,18 +951,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb">
+    <entry file="file://$PROJECT_DIR$/14lipec_shopping_cart.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51993066" vertical-offset="0" max-vertical-offset="577">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.49393415" vertical-offset="465" max-vertical-offset="1860">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14lipec_shopping_cart.rb">
+    <entry file="file://$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6499134" vertical-offset="285" max-vertical-offset="1800">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.75389946" vertical-offset="0" max-vertical-offset="577">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

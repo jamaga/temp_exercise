@@ -47,6 +47,10 @@ module Shop
       @cart.delete(fruit)
     end
 
+    def purge
+      @cart = []
+    end
+
     def total_price
       @cart.each do |product|
         @total += product.fruit_price
