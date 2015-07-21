@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/14lipec_shopping_cart.rb" afterPath="$PROJECT_DIR$/14lipec_shopping_cart.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb" afterPath="$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/16czerwiec_cwiczenie.rb" afterPath="$PROJECT_DIR$/16czerwiec_cwiczenie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb" afterPath="$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb" afterPath="$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +27,7 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.37306643">
+    <splitter split-orientation="horizontal" split-proportion="0.43761754">
       <split-first>
         <leaf>
           <file leaf-file-name="14lipec_shopping_cart.rb" pinned="false" current-in-tab="false">
@@ -47,8 +43,8 @@
           <file leaf-file-name="21lipiec_zoo_cwiczenie.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.0775048" vertical-offset="0" max-vertical-offset="750">
-                  <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.27121" vertical-offset="60" max-vertical-offset="825">
+                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -111,8 +107,8 @@
           <file leaf-file-name="21lipiec_zoo_cwiczenie_testy.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14177693" vertical-offset="0" max-vertical-offset="529">
-                  <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.4589708" vertical-offset="0" max-vertical-offset="719">
+                  <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -226,9 +222,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="740" />
+    <option name="x" value="1386" />
+    <option name="y" value="-453" />
+    <option name="width" value="1776" />
+    <option name="height" value="930" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -423,13 +420,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="740" extended-state="6" />
+    <frame x="1386" y="-453" width="1776" height="930" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.048231512" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.104501605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08004926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -437,7 +434,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.112277865" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.080161475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -876,18 +873,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
+    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0775048" vertical-offset="0" max-vertical-offset="750">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.4589708" vertical-offset="0" max-vertical-offset="719">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb">
+    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14177693" vertical-offset="0" max-vertical-offset="529">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="10" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.27121" vertical-offset="60" max-vertical-offset="825">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>

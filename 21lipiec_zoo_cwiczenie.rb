@@ -17,14 +17,19 @@ module Zoo
       @animals_so_far = []
     end
 
-    def add(animal_to_add)
+    def add(animal_to_add, animal_type_to_add = nil)
       animal = Zoo::Animal.new
       animal.animal_name = animal_to_add
+      animal.animal_type = animal_type_to_add
       @animals_so_far << animal
     end
 
     def list
-      @animals_so_far.map { |animal| animal.animal_name }
+      if :animal_type == nil
+        @animals_so_far.map { |animal| animal.animal_name }
+      else
+        @animals_so_far.map { |animal| animal.animal_type }
+      end
     end
 
     def drop(animal_to_delete)
@@ -39,7 +44,7 @@ module Zoo
   end
 
   class Animal
-    attr_accessor :animal_name
+    attr_accessor :animal_name, :animal_type
   end
 
 end
