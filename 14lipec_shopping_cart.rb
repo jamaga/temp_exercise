@@ -20,31 +20,45 @@
 #    cart.list # => []
 
 module Shop
+  #albo w module klase z asortymentem
+  #albo w konstruktorze carta parametr z asortymentem - lepsza opcja
 
   class Item
     attr_accessor :fruit_name, :fruit_price
-
-    def initialize(fruit_name, fruit_price)
-      @fruit_name = fruit_name
-      @fruit_price = fruit_price.to_i
-    end
   end
 
-  class Cart < Item
-    def initialize
+  class Cart
+    def initialize(asortyment)
       @cart = []
+      @asortyment = asortyment.to_h
     end
 
     def add(fruit)
-      @cart << fruit
+      #sprawdzic czy fruit jest w asortymencie
+      #jesli jest - nowa instancja klasy item z fruit name i price
+      if @asortyment.key?(fruit)
+        item = Shop::Item.new
+        item.fruit_name = fruit
+        item.fruit_price = @asortyment[fruit]
+        @cart << item
+      end
     end
 
     def list
-      @cart
+      @cart.map { |item| item.fruit_name }
+      #tablica z nazwami produktow tylko - tylko nazwy
     end
 
     def drop(fruit)
-      @cart.delete(fruit)
+      # @cart z tego usunac elemnt ktorego fruit name = moja zmienna fruit
+      @cart.each do |item|
+        if item.fruit_name == fruit
+          @cart.delete(item)
+          break
+          #jesli znjdziemy elemnt to go kasujemy i nie chodzimy juz w petli
+          # jak jesy pierwszy albo 2gi a mamy 1000 elemento to nie chcemy po iech chodzic
+        end
+      end
     end
 
     def purge
@@ -52,68 +66,13 @@ module Shop
     end
 
     def total_price
+      #w petli zawsze musi byc WARTOSC POCZATKOWA czyli total zero tutaj
+      @total = 0
       @cart.each do |product|
         @total += product.fruit_price
       end
+      @total
     end
   end
 
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
-# class List
-#
-#   def initialize
-#     @que = []
-#   end
-#
-#   def add(element)
-#     @que << element
-#   end
-#
-#   def remove(element)\
-#     @que.delete(element)
-#   end
-#
-#   def get
-#     @que.last
-#   end
-#
-#   def list
-#     @que
-#   end
-#
-#   def purge
-#     @que = []
-#   end
-#
-# end
-#
-# o = List.new
-# p o.list # => []
-# p o.get # => nil
-# o.add("Ala")
-# p o.get # => "Ala"
-# o.add("Marta")
-# o.add("Piotrek")
-# p o.get # => "Piotrek"
-# p o.list # => ["Ala", "Marta", "Piotrek"]
-# o.remove("Marta")
-# p o.list # => ["Ala", "Piotrek"]
-# o.purge
-# p o.list # => []

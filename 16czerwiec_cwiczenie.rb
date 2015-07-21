@@ -69,7 +69,7 @@ module Myenumerable
       self.drop(1).each { |item| element = yield(element, item) }
       element
     end
-
+s
 end
 
 
