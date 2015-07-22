@@ -8,8 +8,21 @@ module Company
       @our_factory_now = []
     end
 
-    def list
-      @our_factory_now
+    def list(marka_auta = nil)
+      auta_do_pokazania = []
+      if marka_auta == nil
+        @our_factory_now.each do |autko|
+          auta_do_pokazania << "#{autko.model_group} #{autko.model_group['name']}"
+        end
+        auta_do_pokazania
+      else
+        @our_factory_now.each do |autko|
+          if autko.model_group == marka_auta
+            auta_do_pokazania << "#{autko.model_group} #{autko.model_group['name']} #{autko.model_group['type']}"
+          end
+        end
+      end
+      auta_do_pokazania
     end
 
     def addCar(nazwa, car_details_hash)
