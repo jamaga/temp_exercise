@@ -24,12 +24,18 @@ module Zoo
       @animals_so_far << animal
     end
 
-    def list
-      if :animal_type == nil
-        @animals_so_far.map { |animal| animal.animal_name }
+    def list(animal_type = nil)
+      animals_to_show = []
+      if animal_type == nil
+        animals_to_show = @animals_so_far.map { |animal| animal.animal_name }
       else
-        @animals_so_far.map { |animal| animal.animal_type }
+        @animals_so_far.each do |animal|
+          if animal.animal_type == animal_type
+            animals_to_show << animal.animal_name
+          end
+        end
       end
+      animals_to_show
     end
 
     def drop(animal_to_delete)

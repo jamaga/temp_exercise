@@ -8,7 +8,7 @@ class ZooTest < Test::Unit::TestCase
     animal_group.add('lion', 'ssak')
     animal_group.add('fish', 'ryba')
     animal_group.add('frog', 'gad')
-    assert_equal ['lion', 'fish'], animal_group.list('ssak')
+    assert_equal ['lion'], animal_group.list('ssak')
     assert_equal ['frog'], animal_group.list('gad')
   end
 
