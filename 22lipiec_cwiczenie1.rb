@@ -40,7 +40,6 @@ module Company
       #jesli w parametrze podamy id - to wyslwietlimy dany model
 
     end
-
   end
 
   class Car
