@@ -13,7 +13,7 @@ module App
       source = File::open("./23lipiec_csv_pdomowa.csv","r")
       source.each_line do |line, i|
         if i == person_row
-
+          source.delete_at(person_row)
         end
       end
 
