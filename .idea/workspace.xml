@@ -27,7 +27,7 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49811888">
+    <splitter split-orientation="horizontal" split-proportion="0.38747555">
       <split-first>
         <leaf>
           <file leaf-file-name="14lipec_shopping_cart.rb" pinned="false" current-in-tab="false">
@@ -50,20 +50,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="23lipiec_csv_pdomowa.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="23lipiec_csv_pdomowa.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="675">
-                  <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+                  <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="22lipiec_cwiczenie1.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="22lipiec_cwiczenie1.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/22lipiec_cwiczenie1.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
+                <state vertical-scroll-proportion="0.07053292" vertical-offset="255" max-vertical-offset="1260">
                   <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
                   <folding />
                 </state>
@@ -84,70 +84,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="30czerwiec_suma_tests.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/30czerwiec_suma_tests.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-                  <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="30czerwiec_silnia_tests.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/30czerwiec_silnia_tests.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-                  <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="16czerwiec_cw_enumberable_tests.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/16czerwiec_cw_enumberable_tests.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1065">
-                  <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="13lipiec_anonimowa_funkcja.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/13lipiec_anonimowa_funkcja.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="2115">
-                  <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="14lipiec_shopping_cart_tests.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="21lipiec_zoo_cwiczenie_testy.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="22lipiec_cwiczenie1_testy.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/22lipiec_cwiczenie1_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1095">
+                <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1095">
                   <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="35" selection-end-column="40" />
                   <folding />
                 </state>
@@ -157,8 +97,8 @@
           <file leaf-file-name="23lipiec_csv_pdomowa_tests.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa_tests.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.44670847" vertical-offset="0" max-vertical-offset="638">
-                  <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.63479626" vertical-offset="0" max-vertical-offset="638">
+                  <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -169,16 +109,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
                   <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="05czerwiec_cwiczenie_metody_testy.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/05czerwiec_cwiczenie_metody_testy.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -243,8 +173,8 @@
         <option value="$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb" />
         <option value="$PROJECT_DIR$/22lipiec_cwiczenie1_testy.rb" />
         <option value="$PROJECT_DIR$/22lipiec_cwiczenie1.rb" />
-        <option value="$PROJECT_DIR$/23lipiec_csv_pdomowa_tests.rb" />
         <option value="$PROJECT_DIR$/23lipiec_csv_pdomowa.rb" />
+        <option value="$PROJECT_DIR$/23lipiec_csv_pdomowa_tests.rb" />
       </list>
     </option>
   </component>
@@ -710,50 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/30czerwiec_silnia_tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/30czerwiec_suma_tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/16czerwiec_cw_enumberable_tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1065">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10czerwca_timer_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="390">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13lipiec_anonimowa_funkcja.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1521" max-vertical-offset="2115">
-          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05czerwiec_cwiczenie_metody_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -822,22 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14lipec_shopping_cart.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="1260">
@@ -878,10 +752,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="915">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22lipiec_cwiczenie1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07053292" vertical-offset="255" max-vertical-offset="1260">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05czerwiec_cwiczenie_metody_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="709">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14lipiec_shopping_cart_tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13lipiec_anonimowa_funkcja.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6238245" vertical-offset="1312" max-vertical-offset="2115">
+          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/16czerwiec_cw_enumberable_tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0846395" vertical-offset="381" max-vertical-offset="1065">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30czerwiec_silnia_tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3526646" vertical-offset="0" max-vertical-offset="638">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30czerwiec_suma_tests.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3526646" vertical-offset="0" max-vertical-offset="690">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -896,32 +850,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44670847" vertical-offset="0" max-vertical-offset="638">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="915">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/22lipiec_cwiczenie1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="675">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.63479626" vertical-offset="0" max-vertical-offset="638">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>

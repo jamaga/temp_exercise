@@ -22,6 +22,10 @@ module App
       people_to_show
     end
 
+    def remove(indeks_osoby)
+      @people_so_far.delete_at(indeks_osoby - 1)
+    end
+
   end
 
   class Person

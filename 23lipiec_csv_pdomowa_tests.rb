@@ -9,11 +9,20 @@ class AppTest < Test::Unit::TestCase
   #kiedys testowalismy yml - udawalismy ze jest na dysku
 
 
-  def test_adding
+  def test_add_and_list
     osoba = App::Index.new
     osoba.add('Andrzej', 'Nowak', 22)
     osoba.add('Zbigniew', 'Ekis', 30)
-    #o.add('Marek', 'Ygrek', 29)
+    osoba.list
+    assert_equal ['Andrzej Nowak', 'Zbigniew Ekis'], osoba.list
+  end
+
+  def test_remove
+    osoba = App::Index.new
+    osoba.add('Andrzej', 'Nowak', 22)
+    osoba.add('Zbigniew', 'Ekis', 30)
+    osoba.add('Marek', 'Ygrek', 29)
+    osoba.remove(3)
     osoba.list
     assert_equal ['Andrzej Nowak', 'Zbigniew Ekis'], osoba.list
   end
