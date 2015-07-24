@@ -31,6 +31,10 @@ module App
       "#{found_person.person_name}, #{found_person.person_surname}, #{found_person.person_age}"
     end
 
+    def purge
+      @people_so_far = []
+    end
+
   end
 
   class Person

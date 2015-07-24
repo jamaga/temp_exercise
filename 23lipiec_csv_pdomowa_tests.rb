@@ -35,4 +35,13 @@ class AppTest < Test::Unit::TestCase
     osoba.show(1)
     assert_equal "Andrzej, Nowak, 22", osoba.show(1)
   end
+
+  def test_purge
+    osoba = App::Index.new
+    osoba.add('Andrzej', 'Nowak', 22)
+    osoba.add('Zbigniew', 'Ekis', 30)
+    osoba.add('Marek', 'Ygrek', 29)
+    osoba.purge
+    assert_equal [], osoba.purge
+  end
 end

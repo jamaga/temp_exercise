@@ -27,7 +27,7 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49575993">
+    <splitter split-orientation="horizontal" split-proportion="0.4876033">
       <split-first>
         <leaf>
           <file leaf-file-name="14lipec_shopping_cart.rb" pinned="false" current-in-tab="false">
@@ -53,8 +53,8 @@
           <file leaf-file-name="23lipiec_csv_pdomowa.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.79004663" vertical-offset="152" max-vertical-offset="810">
-                  <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.5800933" vertical-offset="152" max-vertical-offset="870">
+                  <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -97,8 +97,8 @@
           <file leaf-file-name="23lipiec_csv_pdomowa_tests.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa_tests.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.86314154" vertical-offset="0" max-vertical-offset="660">
-                  <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.8600311" vertical-offset="122" max-vertical-offset="795">
+                  <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -842,16 +842,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79004663" vertical-offset="152" max-vertical-offset="810">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.5800933" vertical-offset="152" max-vertical-offset="870">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/23lipiec_csv_pdomowa_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86314154" vertical-offset="0" max-vertical-offset="660">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.8600311" vertical-offset="122" max-vertical-offset="795">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding />
         </state>
       </provider>
