@@ -1,3 +1,5 @@
+require 'csv'
+
 module App
 
   class Index
@@ -33,6 +35,12 @@ module App
 
     def purge
       @people_so_far = []
+    end
+
+    def export
+      CSV.open("./23lipiec_csv_pdomowa.csv", "wb") do |csv|
+        csv << @people_so_far
+      end
     end
 
   end

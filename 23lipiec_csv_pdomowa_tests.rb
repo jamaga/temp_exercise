@@ -44,4 +44,12 @@ class AppTest < Test::Unit::TestCase
     osoba.purge
     assert_equal [], osoba.purge
   end
+
+  def test_export
+    osoba = App::Index.new
+    osoba.add('Andrzej', 'Nowak', 22)
+    osoba.add('Zbigniew', 'Ekis', 30)
+    osoba.add('Marek', 'Ygrek', 29)
+    osoba.export
+  end
 end
