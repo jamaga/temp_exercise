@@ -26,6 +26,11 @@ module App
       @people_so_far.delete_at(indeks_osoby - 1)
     end
 
+    def show(indeks_osoby)
+      found_person = @people_so_far[indeks_osoby - 1]
+      "#{found_person.person_name}, #{found_person.person_surname}, #{found_person.person_age}"
+    end
+
   end
 
   class Person

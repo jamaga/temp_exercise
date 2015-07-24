@@ -26,4 +26,13 @@ class AppTest < Test::Unit::TestCase
     osoba.list
     assert_equal ['Andrzej Nowak', 'Zbigniew Ekis'], osoba.list
   end
+
+  def test_show
+    osoba = App::Index.new
+    osoba.add('Andrzej', 'Nowak', 22)
+    osoba.add('Zbigniew', 'Ekis', 30)
+    osoba.add('Marek', 'Ygrek', 29)
+    osoba.show(1)
+    assert_equal "Andrzej, Nowak, 22", osoba.show(1)
+  end
 end
