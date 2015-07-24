@@ -2,6 +2,26 @@ module App
 
   class Index
 
+    def initialize
+      @people_so_far = []
+    end
+
+    def add(name, surname, age)
+      person = App::Person.new
+      person.person_name = name
+      person.person_surname = surname
+      person.person_age = age
+      @people_so_far << person
+    end
+
+    def list
+      people_to_show = []
+      @people_so_far.each do |jedna_osoba|
+        people_to_show << "#{jedna_osoba.person_name} #{jedna_osoba.person_surname}"
+      end
+      people_to_show
+    end
+
   end
 
   class Person
