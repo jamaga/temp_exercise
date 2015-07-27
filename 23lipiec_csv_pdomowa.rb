@@ -39,11 +39,19 @@ module App
 
     def export
       CSV.open("./23lipiec_csv_pdomowa.csv", "wb") do |csv|
-        csv << @people_so_far
-
-        p csv
+        csv << @people_so_far.map do |one_person|
+          [one_person.person_name, one_person.person_surname, one_person.person_age]
+        end
       end
     end
+
+    # def export
+    #   CSV.open("./23lipiec_csv_pdomowa.csv", "wb") do |csv|
+    #     csv << @people_so_far
+    #
+    #     p csv
+    #   end
+    # end
 
     # def export
     #   CSV.open("./23lipiec_csv_pdomowa.csv", "wb") do |csv|
