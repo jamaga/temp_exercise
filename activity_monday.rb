@@ -43,7 +43,6 @@ class Activity
         end
 
         results = results & types & actions
-        #results = Data.send(params[0][:indexes][:type]) & Data.send(params[0][:indexes][:action]) & results
       end
       results
 
