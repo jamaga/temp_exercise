@@ -1,5 +1,5 @@
 require 'test/unit'
-require './5sierpien_mysql_ex'
+require './10sierpien_homework'
 require 'mysql2'
 
 class ProductsTest < Test::Unit::TestCase
@@ -11,21 +11,22 @@ class ProductsTest < Test::Unit::TestCase
   end
 
   def setup
-    @db.query("create table users (
+    @db.query("create table products (
               id int(11) not null auto_increment,
-              email varchar(255) not null,
-              login varchar(255) not null,
-              gender varchar(255) not null,
-              status smallint(3) not null default 1,
+              name varchar(255) not null,
+              price smallint(3) not null,
               primary key(id)
               ) engine=InnoDB;")
   end
 
   def teardown
-    #jak mamy 10 testow - to za kazdym arzem bedzie - po kazdym tescie wyczysci
-
-    @db.query("drop table users")
-    # @db.query("drop table user_details")
+    @db.query("drop table products")
   end
 
+  def test_add_and_list_product
+    p = Product.new(@db)
+    p.add("apple", 3.99)
+    p.add("pear", 5.33)
+    assert_equal {1: 'apple', 2: 'pear'}, p.list
+  end
 end
