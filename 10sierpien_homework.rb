@@ -15,7 +15,7 @@ class Product
   def show(fruit_id_to_show)
     results = @db.query("select * from products where id = '#{fruit_id_to_show}'").first
     if fruit_id_to_show
-      results["name"] + ': ' + results["price"]
+      results["name"] + ': ' + results["price"].to_s
     else
       print 'Product does not exist!'
     end
@@ -27,8 +27,6 @@ class Product
       my_hash.merge!({rez["id"] => rez["name"]})
     end
     my_hash
-    # value_of_hash = @db.query("select * frzm products").map { |row| row["name"] }
-    # Hash[key_of_hash, value_of_hash]
   end
 
 end

@@ -14,7 +14,7 @@ class ProductTest < Test::Unit::TestCase
     @db.query("create table products (
               id int(11) not null auto_increment,
               name varchar(255) not null,
-              price smallint(3) not null,
+              price double(3,2) not null,
               primary key(id)
               ) engine=InnoDB;")
   end
@@ -34,8 +34,9 @@ class ProductTest < Test::Unit::TestCase
     p = Product.new(@db)
     p.add("apple", 3.99)
     p.add("pear", 5.33)
-    assert_equal "pear: 5.33", p.show(2)
+    assert_equal 'pear: 5.33', p.show(2)
   end
+
 end
 
 #
