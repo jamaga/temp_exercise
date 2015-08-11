@@ -27,7 +27,7 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5288053">
+    <splitter split-orientation="horizontal" split-proportion="0.51607037">
       <split-first>
         <leaf>
           <file leaf-file-name="activity.rb" pinned="false" current-in-tab="false">
@@ -63,8 +63,8 @@
           <file leaf-file-name="10sierpien_homework.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.37546933" vertical-offset="0" max-vertical-offset="799">
-                  <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.3942428" vertical-offset="0" max-vertical-offset="799">
+                  <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -97,8 +97,8 @@
           <file leaf-file-name="10sierpien_homework_tests.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/10sierpien_homework_tests.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.563204" vertical-offset="0" max-vertical-offset="799">
-                  <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.6195244" vertical-offset="0" max-vertical-offset="799">
+                  <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
@@ -173,8 +173,8 @@
         <option value="$PROJECT_DIR$/5sierpien_mysql_ex_testy.rb" />
         <option value="$PROJECT_DIR$/activity.rb" />
         <option value="$PROJECT_DIR$/activity_monday.rb" />
-        <option value="$PROJECT_DIR$/10sierpien_homework_tests.rb" />
         <option value="$PROJECT_DIR$/10sierpien_homework.rb" />
+        <option value="$PROJECT_DIR$/10sierpien_homework_tests.rb" />
       </list>
     </option>
   </component>
@@ -850,18 +850,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10sierpien_homework_tests.rb">
+    <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.563204" vertical-offset="0" max-vertical-offset="799">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.3942428" vertical-offset="0" max-vertical-offset="799">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
+    <entry file="file://$PROJECT_DIR$/10sierpien_homework_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37546933" vertical-offset="0" max-vertical-offset="799">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.6195244" vertical-offset="0" max-vertical-offset="799">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
           <folding />
         </state>
       </provider>

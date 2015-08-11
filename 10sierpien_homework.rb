@@ -15,7 +15,7 @@ class Products
   def show(fruit_id_to_show)
     results = @db.query("select * from users where id = '#{fruit_id_to_show}'").first
     if fruit_id_to_show
-      [results["name"] + ':' + results["price"]]
+      results["name"] + ':' + results["price"]
     else
       print 'Product does not exist!'
     end

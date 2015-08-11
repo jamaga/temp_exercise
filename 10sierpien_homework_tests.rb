@@ -27,6 +27,10 @@ class ProductsTest < Test::Unit::TestCase
     p = Product.new(@db)
     p.add("apple", 3.99)
     p.add("pear", 5.33)
-    assert_equal {1: 'apple', 2: 'pear'}, p.list
+    assert_equal( {1 => 'apple', 2 => 'pear'}, p.list)
+  end
+
+  def test_show_fruit
+    
   end
 end
