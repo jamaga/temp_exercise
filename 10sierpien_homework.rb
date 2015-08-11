@@ -1,4 +1,4 @@
-class Products
+class Product
 
   def initialize(db = nil)
     @db = db
@@ -8,17 +8,21 @@ class Products
     end
   end
 
-  def add_product(fruit_name, fruit_price)
+  def add(fruit_name, fruit_price)
     @db.query("insert into products (name, price) values ('#{fruit_name}', '#{fruit_price}')")
   end
 
   def show(fruit_id_to_show)
-    results = @db.query("select * from users where id = '#{fruit_id_to_show}'").first
+    results = @db.query("select * from products where id = '#{fruit_id_to_show}'").first
     if fruit_id_to_show
-      results["name"] + ':' + results["price"]
+      results["name"] + ': ' + results["price"]
     else
       print 'Product does not exist!'
     end
+  end
+
+  def list
+
   end
 
 end
