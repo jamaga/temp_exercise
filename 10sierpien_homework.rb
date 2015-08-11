@@ -29,16 +29,12 @@ class Product
     my_hash
   end
 
+  def purge #zrobic esqelke z tego
+    @db.query("drop table products")
+  end
+
+  def drop(product_id)
+    @db.query("delete from products where id = #{product_id}")
+  end
+
 end
-
-
-# def add_user(email_to_add, login_to_add, gender_to_add, status_to_add)
-#   @db.query("insert into users (email, login, gender, status) values ('#{email_to_add}', '#{login_to_add}', '#{gender_to_add}', '#{status_to_add}')")
-#   #@db.query("SELECT LAST_INSERT_ID() as id").first
-#   @db.last_id
-# end
-#
-# def show_user(id_to_show)
-#   results = @db.query("select * from users where id = '#{id_to_show}'").first
-#   [results["email"], results["login"],results["gender"], results["status"]]
-# end
