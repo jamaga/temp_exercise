@@ -48,7 +48,8 @@ class ProductTest < Test::Unit::TestCase
     p = Product.new(@db)
     p.add("apple", 3.99)
     p.add("pear", 5.33)
-    assert_equal({}, p.purge)
+    p.purge
+    assert_equal({}, p.list)
   end
 
   def test_drop_fruit

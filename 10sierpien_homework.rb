@@ -14,10 +14,11 @@ class Product
 
   def show(fruit_id_to_show)
     results = @db.query("select * from products where id = '#{fruit_id_to_show}'").first
-    if fruit_id_to_show
+    #p @db.query("select * from products where id = '#{fruit_id_to_show}'")
+    if results != nil
       results["name"] + ': ' + results["price"].to_s
-    elsif results == nil
-      print 'Product does not exist!'
+    else
+      'Product does not exist!'
     end
   end
 
@@ -30,8 +31,7 @@ class Product
   end
 
   def purge #zrobic esqelke z tego?? czysci mi do nila a nie do pustego hasza
-    #@db.query("drop table products")
-    @db = {}
+    @db.query("truncate products")
   end
 
   def drop(product_id)
