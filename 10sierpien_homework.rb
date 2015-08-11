@@ -22,7 +22,13 @@ class Product
   end
 
   def list
-
+    my_hash = {}
+    @db.query("select * from products").each do |rez|
+      my_hash.merge!({rez["id"] => rez["name"]})
+    end
+    my_hash
+    # value_of_hash = @db.query("select * frzm products").map { |row| row["name"] }
+    # Hash[key_of_hash, value_of_hash]
   end
 
 end
