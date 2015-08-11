@@ -60,7 +60,3 @@ class ProductTest < Test::Unit::TestCase
   end
 
 end
-
-#
-# id = u.add_user("antek@op.pl", "ant", "male", 3) #dodanie usera zwraca nam id dodanego usera!
-# assert_equal ["antek@op.pl", "ant", "male", 3], u.show_user(id)

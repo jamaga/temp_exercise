@@ -16,7 +16,7 @@ class Product
     results = @db.query("select * from products where id = '#{fruit_id_to_show}'").first
     if fruit_id_to_show
       results["name"] + ': ' + results["price"].to_s
-    else
+    elsif results == nil
       print 'Product does not exist!'
     end
   end
@@ -29,8 +29,9 @@ class Product
     my_hash
   end
 
-  def purge #zrobic esqelke z tego
-    @db.query("drop table products")
+  def purge #zrobic esqelke z tego?? czysci mi do nila a nie do pustego hasza
+    #@db.query("drop table products")
+    @db = {}
   end
 
   def drop(product_id)
