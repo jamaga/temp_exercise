@@ -59,5 +59,4 @@ class ProductTest < Test::Unit::TestCase
     p.drop(2)
     assert_equal({1 => "apple"}, p.list)
   end
-
 end

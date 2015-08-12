@@ -37,5 +37,4 @@ class Product
   def drop(product_id)
     @db.query("delete from products where id = #{product_id}")
   end
-
 end
