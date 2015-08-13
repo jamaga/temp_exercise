@@ -53,5 +53,4 @@ class UserAppTest < Test::Unit::TestCase
     assert_equal ['login1'],@u.list
     assert_equal "user does not exist so u cannot remove it", @u.drop('login5')
   end
-
 end
