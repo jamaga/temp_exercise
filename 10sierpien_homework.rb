@@ -35,6 +35,9 @@ class Product
   end
 
   def drop(product_id)
-    @db.query("delete from products where id = #{product_id}")
+    #pojedyncze uszy - zalatwia ze sie nie wykrzaczy jak sie poda nie numer - np abc
+    #ale jak .drop("' or id > 0")    - zle bardzo - usuwa si ewszystkie rekordy z bazy
+    @db.query("delete from products where id = '#{product_id}'")
   end
 end
+

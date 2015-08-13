@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13sierpien_lekcja_testy.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10sierpien_homework.rb" afterPath="$PROJECT_DIR$/10sierpien_homework.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10sierpien_homework_tests.rb" afterPath="$PROJECT_DIR$/10sierpien_homework_tests.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,54 +29,24 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4827168">
+    <splitter split-orientation="horizontal" split-proportion="0.4793864">
       <split-first>
         <leaf>
-          <file leaf-file-name="activity.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/activity.rb">
+          <file leaf-file-name="13sierpien_lekcja.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/13sierpien_lekcja.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.4" vertical-offset="345" max-vertical-offset="1395">
-                  <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+                <state vertical-scroll-proportion="0.65905094" vertical-offset="585" max-vertical-offset="1155">
+                  <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="activity_monday.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/activity_monday.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-38.4" vertical-offset="0" max-vertical-offset="1320">
-                  <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="5sierpien_mysql_ex.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/5sierpien_mysql_ex.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.4" vertical-offset="0" max-vertical-offset="585">
-                  <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="10sierpien_homework.rb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="10sierpien_homework.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.80627304" vertical-offset="133" max-vertical-offset="675">
-                  <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="30lipiec_databases.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/30lipiec_databases.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="750">
-                  <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+                <state vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="735">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -84,31 +56,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="5sierpien_mysql_ex_testy.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/5sierpien_mysql_ex_testy.rb">
+          <file leaf-file-name="13sierpien_lekcja_testy.rb" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/13sierpien_lekcja_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.56" vertical-offset="176" max-vertical-offset="1005">
-                  <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="10sierpien_homework_tests.rb" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/10sierpien_homework_tests.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.81546575" vertical-offset="436" max-vertical-offset="1005">
-                  <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="5sierpien_mysql_run.rb" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/5sierpien_mysql_run.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
-                  <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+                <state vertical-scroll-proportion="0.7891037" vertical-offset="301" max-vertical-offset="1245">
+                  <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -124,10 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Invoices_app/lib/client.rb" />
-        <option value="$PROJECT_DIR$/Invoices_app/test/invoice_item_test.rb" />
-        <option value="$PROJECT_DIR$/Invoices_app/lib/invoice_item.rb" />
-        <option value="$PROJECT_DIR$/Invoices_app/lib/invoice.rb" />
         <option value="$PROJECT_DIR$/10czerwca_timer_testy.rb" />
         <option value="$PROJECT_DIR$/10czerwca_timer.rb" />
         <option value="$PROJECT_DIR$/invoices_app_2/test/main_test.rb" />
@@ -173,8 +121,12 @@
         <option value="$PROJECT_DIR$/5sierpien_mysql_ex_testy.rb" />
         <option value="$PROJECT_DIR$/activity.rb" />
         <option value="$PROJECT_DIR$/activity_monday.rb" />
-        <option value="$PROJECT_DIR$/10sierpien_homework.rb" />
         <option value="$PROJECT_DIR$/10sierpien_homework_tests.rb" />
+        <option value="$PROJECT_DIR$/10sierpien_homework.rb" />
+        <option value="$PROJECT_DIR$/13serpien_lekcja.rb" />
+        <option value="$PROJECT_DIR$/11czerwiec_library_ex/13sierpien_lekcja_testy.rb" />
+        <option value="$PROJECT_DIR$/13sierpien_lekcja_testy.rb" />
+        <option value="$PROJECT_DIR$/13sierpien_lekcja.rb" />
       </list>
     </option>
   </component>
@@ -182,8 +134,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1422" />
-    <option name="y" value="-469" />
+    <option name="x" value="11" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="740" />
   </component>
@@ -402,7 +354,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1422" y="-469" width="1280" height="740" extended-state="0" />
+    <frame x="11" y="23" width="1280" height="740" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -416,7 +368,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14297253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15751211" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -491,20 +443,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/09czerwiec_liczby_rozszerzenie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="2" column="80" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09czerwiec_cwiczenie_z_blokami.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="735">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/10czerwiec_ex1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2082" max-vertical-offset="2790">
@@ -802,9 +740,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/30lipiec_databases.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50087875" vertical-offset="0" max-vertical-offset="750">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5sierpien_mysql_ex.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63268894" vertical-offset="0" max-vertical-offset="585">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/activity_monday.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-38.4" vertical-offset="0" max-vertical-offset="1320">
+        <state vertical-scroll-proportion="1.6871705" vertical-offset="0" max-vertical-offset="1320">
           <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
           <folding />
         </state>
@@ -812,56 +766,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/activity.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.4" vertical-offset="345" max-vertical-offset="1395">
+        <state vertical-scroll-proportion="0.63268894" vertical-offset="345" max-vertical-offset="1395">
           <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5sierpien_mysql_ex.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.4" vertical-offset="0" max-vertical-offset="585">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5sierpien_mysql_run.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="150">
+        <state vertical-scroll-proportion="0.10544816" vertical-offset="0" max-vertical-offset="569">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/5sierpien_mysql_ex_testy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.56" vertical-offset="176" max-vertical-offset="1005">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/30lipiec_databases.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.4" vertical-offset="0" max-vertical-offset="750">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80627304" vertical-offset="133" max-vertical-offset="675">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/10sierpien_homework_tests.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81546575" vertical-offset="436" max-vertical-offset="1005">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.18453427" vertical-offset="0" max-vertical-offset="1005">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5sierpien_mysql_ex_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63971883" vertical-offset="176" max-vertical-offset="1005">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2" vertical-offset="0" max-vertical-offset="735">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13sierpien_lekcja_testy.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7891037" vertical-offset="301" max-vertical-offset="1245">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13sierpien_lekcja.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65905094" vertical-offset="585" max-vertical-offset="1155">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding />
         </state>
       </provider>

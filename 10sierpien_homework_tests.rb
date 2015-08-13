@@ -14,7 +14,7 @@ class ProductTest < Test::Unit::TestCase
     @db.query("create table products (
               id int(11) not null auto_increment,
               name varchar(255) not null,
-              price double(3,2) not null,
+              price double(5,2) not null,
               primary key(id)
               ) engine=InnoDB;")
   end
