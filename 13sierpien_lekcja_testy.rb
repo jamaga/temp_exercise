@@ -7,13 +7,13 @@ class UserAppTest < Test::Unit::TestCase
   def initialize(test_case_class)
     super
     @db = Mysql2::Client.new(host: "localhost", username: "root",
-        password: "", database: "ruby_tests")
+        password: "", database: "ruby")
   end
 
   def setup
     @db.query("create table users (
               id int(11) not null auto_increment,
-              login varchar(255) not null,
+              username varchar(255) not null,
               email varchar(255) not null,
               status smallint(3) not null default 0,
               primary key(id)
@@ -26,7 +26,6 @@ class UserAppTest < Test::Unit::TestCase
               user_id int(11) not null,
               first_name varchar(255) not null,
               last_name varchar(255) not null,
-              gender varchar(255) not null default 'male',
               primary key(id)
               ) engine=InnoDB;")
 
@@ -49,7 +48,7 @@ class UserAppTest < Test::Unit::TestCase
     assert_equal "user does not exist", @u.details('login5')
   end
 
-  def test_remove
+  def test_drop
     @u.remove('login2')
     assert_equal ['login1'],@u.list
     assert_equal "user does not exist", @u.remove('login5')
@@ -67,11 +66,10 @@ end
 
 #stworzyc modul z 4 klasami
 # 1wsza klasa - Users, 2ga - UserDetails
-#3cia - User_avatars
-#4ta - UsersList
+#3ta - UsersList
 #chcemy zeby - mozna bylo dodawac uzytkownikow
 #klasa users - musi miec user_name, email, status (attybuty)
-# user_details - first_name, last_name, gender
+# user_details - first_name, last_name
 # uzycie - dodaje za pomoca users - dodaje nowego usera ktory ma first_name, stats, wszystko
 #dodajemy to za pomoca metody add
 #przyklad:
