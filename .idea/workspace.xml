@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13sierpien_lekcja.rb" afterPath="$PROJECT_DIR$/13sierpien_lekcja.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13sierpien_lekcja_testy.rb" afterPath="$PROJECT_DIR$/13sierpien_lekcja_testy.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="temp_ex.iws" />
@@ -43,8 +44,8 @@
           <file leaf-file-name="13sierpien_lekcja.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/13sierpien_lekcja.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.57106596" vertical-offset="0" max-vertical-offset="1770">
-                  <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+                <state vertical-scroll-proportion="0.20050761" vertical-offset="337" max-vertical-offset="1125">
+                  <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -73,8 +74,8 @@
           <file leaf-file-name="10sierpien_homework.rb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="735">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+                <state vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="735">
+                  <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
                   <folding />
                 </state>
               </provider>
@@ -97,8 +98,8 @@
           <file leaf-file-name="13sierpien_lekcja_testy.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/13sierpien_lekcja_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.24365482" vertical-offset="183" max-vertical-offset="1215">
-                  <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.13324873" vertical-offset="0" max-vertical-offset="930">
+                  <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
                   <folding />
                 </state>
               </provider>
@@ -183,8 +184,8 @@
         <option value="$PROJECT_DIR$/10sierpien_homework.rb" />
         <option value="$PROJECT_DIR$/13serpien_lekcja.rb" />
         <option value="$PROJECT_DIR$/11czerwiec_library_ex/13sierpien_lekcja_testy.rb" />
-        <option value="$PROJECT_DIR$/13sierpien_lekcja_testy.rb" />
         <option value="$PROJECT_DIR$/13sierpien_lekcja.rb" />
+        <option value="$PROJECT_DIR$/13sierpien_lekcja_testy.rb" />
       </list>
     </option>
   </component>
@@ -840,6 +841,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.52" vertical-offset="127" max-vertical-offset="915">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/22lipiec_cwiczenie1.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="1260">
@@ -850,32 +859,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10sierpien_homework.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4" vertical-offset="0" max-vertical-offset="735">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/21lipiec_zoo_cwiczenie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.52" vertical-offset="127" max-vertical-offset="915">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state vertical-scroll-proportion="-10.8" vertical-offset="0" max-vertical-offset="735">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13sierpien_lekcja_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24365482" vertical-offset="183" max-vertical-offset="1215">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.13324873" vertical-offset="0" max-vertical-offset="930">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13sierpien_lekcja.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57106596" vertical-offset="0" max-vertical-offset="1770">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.20050761" vertical-offset="337" max-vertical-offset="1125">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>

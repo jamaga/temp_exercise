@@ -49,28 +49,9 @@ class UserAppTest < Test::Unit::TestCase
   end
 
   def test_drop
-    @u.remove('login2')
+    @u.drop('login2')
     assert_equal ['login1'],@u.list
-    assert_equal "user does not exist", @u.remove('login5')
+    assert_equal "user does not exist so u cannot remove it", @u.drop('login5')
   end
 
 end
-
-
-# u = UsersList.new
-# u.add({username: 'login1', email: 'mail1@domain.com', status: 1}, {first_name: 'Zenon', last_name: 'Kowalski'})
-# u.add({username: 'login2', email: 'mail2@domain.com', status: 0}, {first_name: 'Adam', last_name: 'Michnik'})
-# u.list # => ['login1', 'login2']
-# u.details('login1') # => Name: 'Zenon Kowalski', Email: 'mail1@domain.com', Status: 1,
-
-
-#stworzyc modul z 4 klasami
-# 1wsza klasa - Users, 2ga - UserDetails
-#3ta - UsersList
-#chcemy zeby - mozna bylo dodawac uzytkownikow
-#klasa users - musi miec user_name, email, status (attybuty)
-# user_details - first_name, last_name
-# uzycie - dodaje za pomoca users - dodaje nowego usera ktory ma first_name, stats, wszystko
-#dodajemy to za pomoca metody add
-#przyklad:
-#wypisac cos jak chcemy cos usunac albo pokazac uzytkownika ktory nie istnieje
