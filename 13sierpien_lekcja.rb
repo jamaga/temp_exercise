@@ -11,22 +11,21 @@ module UserApp
     end
 
     def add(user_hash, user_details_hash)
-      User.add(@db, user_hash)
-      UserDetails.add(@db, user_details_hash)
+      usr = User.new(@db)
+      usr.username = user_hash[:username]
+      usr.email = user_hash[:email]
+      usr.status = user_hash[:status]
+      #tutaj bedzie caly hasz user details!!!
+      usr.details = user_details_hash
+      usr.save
     end
 
     def details(user_username)
-      result = @db.query("select * from users where username = '#{user_username}'").first
+      result = @db.query("select status, email, username, first_name, last_name, user_id from users join user_details on users.id = user_details.user_id where username = '#{user_username}'").first
 
       if result != nil
-        id_we_look_for = result['id']
-        status_we_look_for = result['status']
-        email_we_look_for = result['email']
-        result_from_user_details = @db.query("select * from user_details where id = '#{id_we_look_for}'").first
-        first_name_we_look_for = result_from_user_details['first_name']
-        last_name_we_look_for = result_from_user_details['last_name']
 
-        "Name: '#{first_name_we_look_for} #{last_name_we_look_for}', Email: '#{email_we_look_for}', Status: #{status_we_look_for}"
+        "User id: #{result['user_id']}, Name: '#{result['first_name']} #{result['last_name']}', Email: '#{result['email']}', Status: #{result['status']}"
       else
         'user does not exist'
       end
@@ -47,24 +46,43 @@ module UserApp
   end
 
   class User
+    attr_accessor :username, :email, :status, :details
 
-    def self.add(db_connection, data)
-      username_to_add = data[:username]
-      email_to_add = data[:email]
-      status_to_add = data[:status]
-      db_connection.query("insert into users (username, email, status) values ('#{username_to_add}',
-                                                                        '#{email_to_add}',
-                                                                        '#{status_to_add}')")
+    def initialize(db)
+      @db = db
+    end
+
+    def save
+      @db.query("BEGIN")
+      @db.query("insert into users (username, email, status) values ('#{@username}',
+                                                                         '#{@email}',
+                                                                         '#{@status}')")
+      usr_details = UserDetails.new(@db)
+      usr_details.user_id = @db.last_id
+      usr_details.first_name = @details[:first_name]
+      #@details - to jest nasz AKCESOR - stad mozemy uzyc z @ - nasz hasz user_details
+      usr_details.last_name = @details[:last_name]
+      if usr_details.save
+        @db.query("COMMIT")
+      else
+        @db.query("ROLLBACK")
+      end
     end
   end
 
   class UserDetails
+    attr_accessor :user_id, :first_name, :last_name
 
-    def self.add(db_connection, second_table_data)
-      first_name_to_add = second_table_data[:first_name]
-      last_name_to_add = second_table_data[:last_name]
-      db_connection.query("insert into user_details (first_name, last_name) values ('#{first_name_to_add}',
-                                                                        '#{last_name_to_add}')")
+    def initialize(db)
+      @db = db
     end
+
+    def save
+      @db.query("insert into user_details (user_id, first_name, last_name) values ('#{@user_id}',
+                                                                        '#{@first_name}',
+                                                                        '#{@last_name}')")
+      true
+    end
+
   end
 end

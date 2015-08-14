@@ -44,7 +44,7 @@ class UserAppTest < Test::Unit::TestCase
   end
 
   def test_details
-    assert_equal "Name: 'Zenon Kowalski', Email: 'mail1@domain.com', Status: 1", @u.details('login1')
+    assert_equal "User id: 1, Name: 'Zenon Kowalski', Email: 'mail1@domain.com', Status: 1", @u.details('login1')
     assert_equal "user does not exist", @u.details('login5')
   end
 
