@@ -21,6 +21,7 @@ module UserApp
     end
 
     def details(user_username)
+      #polaczenie 2 zapytan sqlowych !
       result = @db.query("select status, email, username, first_name, last_name, user_id from users join user_details on users.id = user_details.user_id where username = '#{user_username}'").first
 
       if result != nil
