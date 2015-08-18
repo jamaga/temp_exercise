@@ -33,7 +33,7 @@ class ForumAppTest < Test::Unit::TestCase
               key(forum_section_id)
               ) engine=InnoDB;")
 
-    @forum = ForumApp::Forum.new("moje forum")
+    @forum = ForumApp::Forum.new("moje forum", @db)
   end
 
   def teardown
@@ -88,7 +88,7 @@ class ForumAppTest < Test::Unit::TestCase
     @forum.add_section("Moj temat1", "Mój opis sekcji1")
     @section = @forum.get_section("Moj temat1")
     @section.add_topic("Nazwa topicu1", "Opis Topicu1")
-    assert_equal "Title: Nazwa topicu1 | Opis: Opis Topicu1", @section.get_topic("Nazwa topicu1")
+    assert_equal "Title: 'Nazwa topicu1' | Opis: 'Opis Topicu1'", @section.get_topic("Nazwa topicu1")
   end
 end
 
