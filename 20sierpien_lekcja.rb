@@ -1,8 +1,6 @@
 module ShopApp
 
   class Product
-    #attr_accessor :id, :name, :price, :description, :is_active
-
 
     def initialize(db = nil)
       @db = db
@@ -12,50 +10,61 @@ module ShopApp
       end
     end
 
-    def add(prod_name, prod_price, prod_description, prod_status)
-      product = Product.new(@db)
-      product.name = prod_name
-      product.price = prod_price
-      product.description = prod_description
-      product.is_active = prod_status
-      #product.id = @id
-      product.save
-
-      @products << product
-      #id
+    #tak zrobilismy - musielismy dodac WPIS do bazy - dodajemy wpis do bazy a hash bedzie w LISt metodzie
+    def save(prod_name, prod_price, prod_description, prod_status)
+      @db.query("INSERT INTO products (name, price, description, is_active) VALUES ('#{prod_name}', '#{prod_price}', '#{prod_description}', #{prod_status})")
+      @db.last_id
     end
 
-    def save
+    def update(id_po_ktorym_zmieniam, wartosc_do_zmiany)
+      #id nie zmieniamy - AKTUALIZUJEMY cos z konkretnym id - inna wartosc kolumny - tylko status
 
-      #puts @db.query("select * from products").fields
-      zapytanie = "insert into products (id, name, price, description, is_active) values ('#{id}'
-                                                                          '#{@name}',
-                                                                        '#{@price}',
-                                                                        '#{@description}'
-                                                                        '#{@is_active}')"
-      @db.query(zapytanie)
-      @db.last_id
+      #is active jest cyfra wiec dlatego bez uszu
+      @db.query("UPDATE products SET is_active = #{wartosc_do_zmiany} WHERE id = '#{id_po_ktorym_zmieniam}'")
+      true
+    end
+
+    def delete(id_produktu_do_usuniecia)
+      @db.query("DELETE FROM products WHERE id = '#{id_produktu_do_usuniecia}'")
+      true
+    end
+
+    # :symbolize_keys - robimy to po to aby miec hasha z symbolami ( :nazwa )
+    def show_details(id_to_show_details_from_db)
+      @db.query("SELECT * FROM products WHERE id = '#{id_to_show_details_from_db}'", :symbolize_keys => true).first
+    end
+
+    #tutaj musimy zrobic hash z rzeczy ktore juz mamy w bazie
+    # drugi parametr - robi KAZDY ELEMENT OD RAZU NA HASHA
+    def find_all
+      products = []
+      @db.query("SELECT id, name FROM products WHERE is_active = 1", :symbolize_keys => true).each do |prod|
+        products << prod
+      end
+      products
     end
   end
 
   class Shop < Product
 
-    def initialize(db)
-      @id = nil
-      @db = db
-      @products = []
-    end
-
     def add(prod_name, prod_price, prod_description, prod_status)
-      Product.save
+      save(prod_name, prod_price, prod_description, prod_status)
     end
 
     def list
-
+      find_all
     end
 
-    def delete
+    def drop(id_produktu_do_usuniecia)
+      delete(id_produktu_do_usuniecia)
+    end
 
+    def change_state(id_po_ktorym_zmieniam, wartosc_do_zmiany)
+      update(id_po_ktorym_zmieniam, wartosc_do_zmiany)
+    end
+
+    def details(id_to_show_details)
+      show_details(id_to_show_details)
     end
   end
 

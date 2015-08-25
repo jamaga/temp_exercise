@@ -61,10 +61,9 @@ class ShopAppTest < Test::Unit::TestCase
   end
 
   def test_show_product
-
     @shop.add('apple', 2.40, 'bardzo dobre', true)
     @shop.add('pear', 3, 'bardzo zla', true)
-    assert_equal Hash[ :id => 2, :name => 'pear', :description => 'bardzo zla', :is_active => true ], @shop.details(2)
+    assert_equal Hash[ :id => 2, :name => 'pear', :description => 'bardzo zla', :is_active => 1, :price => 3.00 ], @shop.details(2)
   end
 
   def test_change_status
