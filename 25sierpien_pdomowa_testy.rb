@@ -46,7 +46,7 @@ class TodoListAppTest < Test::Unit::TestCase
   def test_drop_product
     @list.add('shop', 'buy fruit', true)
     @list.add('pharmacy', 'buy medicine', true)
-    assert @shop.drop(1)
+    assert @list.drop(1)
     assert_equal [Hash[ :id => 2, :name => 'pharmacy']], @list.list
   end
 
