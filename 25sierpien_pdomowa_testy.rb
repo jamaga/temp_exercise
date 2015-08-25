@@ -22,16 +22,13 @@ class TodoListAppTest < Test::Unit::TestCase
 
     @db.query(sql)
 
-    @list = TodoListApp::Shop.new(@db)
+    @list = TodoListApp::List.new(@db)
   end
 
   def teardown
     @db.query('DROP TABLE `todo_lists`')
   end
 
-  def test_add
-
-  end
 
   def test_add_item
     assert_equal 1, @list.add('shop', 'buy fruit', true)
