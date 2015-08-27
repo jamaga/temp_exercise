@@ -105,6 +105,10 @@ class ShopAppTest < Test::Unit::TestCase
     assert_equal [Hash[ :id => 1, :title => 'apple' , :price => 2.50 ],
                   Hash[ :id => 2, :title => 'banana', :price => 4.00 ]], @shop.show_products(1)
 
+    #trzeba bedzie wyciagnac selecta z polami jak id title price, mam pole shop_id ktorego nie chce tu widziec
+    # robimmy nie select *
+    # tylko select id, title, price ...   - to do tego c mialam watpliwosc
+
 
     assert_equal [Hash[ :id => 3, :title => 'orange', :price => 3.25 ]], @shop.show_products(2)
   end

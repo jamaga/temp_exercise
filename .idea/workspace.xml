@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d499a43a-9935-4313-b6e0-44703f93d3fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/26sierpien_lekcja.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/26sierpien_lekcja_testy.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/26sierpien_lekcja_testy.rb" afterPath="$PROJECT_DIR$/26sierpien_lekcja_testy.rb" />
     </list>
     <ignored path="temp_ex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +26,7 @@
     <favorites_list name="temp_ex" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5282714">
+    <splitter split-orientation="horizontal" split-proportion="0.32956383">
       <split-first>
         <leaf>
           <file leaf-file-name="14lipec_shopping_cart.rb" pinned="false" current-in-tab="false">
@@ -64,8 +62,8 @@
           <file leaf-file-name="26sierpien_lekcja.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/26sierpien_lekcja.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.84182775" vertical-offset="181" max-vertical-offset="750">
-                  <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+                <state vertical-scroll-proportion="0.7627416" vertical-offset="181" max-vertical-offset="750">
+                  <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
                   <folding />
                 </state>
               </provider>
@@ -118,8 +116,8 @@
           <file leaf-file-name="26sierpien_lekcja_testy.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/26sierpien_lekcja_testy.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.84182775" vertical-offset="1321" max-vertical-offset="1890">
-                  <caret line="120" column="3" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+                <state vertical-scroll-proportion="0.5518454" vertical-offset="1321" max-vertical-offset="1950">
+                  <caret line="109" column="74" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="74" />
                   <folding />
                 </state>
               </provider>
@@ -214,8 +212,8 @@
         <option value="$PROJECT_DIR$/20sierpien_lekcja.rb" />
         <option value="$PROJECT_DIR$/25sierpien_pdomowa.rb" />
         <option value="$PROJECT_DIR$/25sierpien_pdomowa_testy.rb" />
-        <option value="$PROJECT_DIR$/26sierpien_lekcja_testy.rb" />
         <option value="$PROJECT_DIR$/26sierpien_lekcja.rb" />
+        <option value="$PROJECT_DIR$/26sierpien_lekcja_testy.rb" />
       </list>
     </option>
   </component>
@@ -223,8 +221,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="577" />
-    <option name="y" value="-890" />
+    <option name="x" value="1" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="740" />
   </component>
@@ -431,7 +429,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="577" y="-890" width="1280" height="740" extended-state="0" />
+    <frame x="1" y="23" width="1280" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -895,18 +893,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/26sierpien_lekcja_testy.rb">
+    <entry file="file://$PROJECT_DIR$/26sierpien_lekcja.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84182775" vertical-offset="1321" max-vertical-offset="1890">
-          <caret line="120" column="3" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.7627416" vertical-offset="181" max-vertical-offset="750">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/26sierpien_lekcja.rb">
+    <entry file="file://$PROJECT_DIR$/26sierpien_lekcja_testy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84182775" vertical-offset="181" max-vertical-offset="750">
-          <caret line="44" column="7" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5518454" vertical-offset="1321" max-vertical-offset="1950">
+          <caret line="109" column="74" selection-start-line="109" selection-start-column="74" selection-end-line="109" selection-end-column="74" />
           <folding />
         </state>
       </provider>
