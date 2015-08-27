@@ -1,0 +1,9 @@
+class Post < ActiveRecord::Base
+  attr_accessible :body, :title
+
+  validates_presence_of :body, :title
+
+  #to nam odwzorowuje tabele komentarzy
+  #jak by byl 1 - has_one :comment
+  has_many :comments
+end
