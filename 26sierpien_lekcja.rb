@@ -18,8 +18,8 @@ module ShopApp
       @db.query("DELETE #{id_of_product_to_drop }FROM `products` WHERE shop_id = #{shop_id} ")
     end
 
-    def show_products
-    
+    def show_products(shop_id)
+      @db.query("SELECT id, title, price FROM `products` WHERE shop_id = #{shop_id}")
     end
 
   end
