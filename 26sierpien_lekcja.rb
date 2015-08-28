@@ -11,17 +11,22 @@ module ShopApp
 
     #jak dac tu z jednego parametru oddzielnie price i title zeby bylo jak w tescie
     def add_product(shop_id_we_adding_to, hash_product_title_and_price)
-      @db.query{"INSERT INTO `products` WHERE shop_id = #{shop_id_we_adding_to} (`title`, `price`) VALUES ('#{hash_product_title_and_price[:title]}', #{hash_product_title_and_price[:price]})"}
+      @db.query("INSERT INTO `products` (`shop_id`, `title`, `price`) VALUES (#{shop_id_we_adding_to}, '#{hash_product_title_and_price[:title]}', #{hash_product_title_and_price[:price]})")
+      @db.last_id
     end
 
     def drop_product(shop_id, id_of_product_to_drop)
-      @db.query("DELETE #{id_of_product_to_drop }FROM `products` WHERE shop_id = #{shop_id} ")
+      @db.query("DELETE FROM `products` WHERE id = #{id_of_product_to_drop } AND shop_id = #{shop_id} ")
+      true
     end
 
     def show_products(shop_id)
-      @db.query("SELECT id, title, price FROM `products` WHERE shop_id = #{shop_id}")
+      list_of_products = []
+      @db.query("SELECT id, title, price FROM `products` WHERE shop_id = #{shop_id}", :symbolize_keys => true).each do |one_product|
+        list_of_products << one_product
+      end
+      list_of_products
     end
-
   end
 
   class Shop < Product

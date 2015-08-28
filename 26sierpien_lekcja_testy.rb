@@ -90,17 +90,17 @@ class ShopAppTest < Test::Unit::TestCase
   def test_add_product_to_shop
     @shop.add('U Antka')
     @shop.add('U Baski')
-    assert_equal 1, @shop.add_product(1, { :title => 'apple', :price => 2.50 })
-    assert_equal 2, @shop.add_product(1, { :title => 'banana' :price => 4.00 })
-    assert_equal 3, @shop.add_product(2, { :title => 'orange' :price => 3.25 })
+    assert_equal 1, @shop.add_product(1, Hash[ :title => 'apple', :price => 2.50])
+    assert_equal 2, @shop.add_product(1, Hash[ :title => 'banana', :price => 4.00])
+    assert_equal 3, @shop.add_product(2, Hash[ :title => 'orange', :price => 3.25])
   end
 
   def test_list_products_from_shop
     @shop.add('U Antka')
     @shop.add('U Baski')
-    @shop.add_product(1, { :title => 'apple', :price => 2.50 })
-    @shop.add_product(1, { :title => 'banana' :price => 4.00 })
-    @shop.add_product(2, { :title => 'orange' :price => 3.25 })
+    @shop.add_product(1, Hash[ :title => 'apple', :price => 2.50])
+    @shop.add_product(1, Hash[ :title => 'banana', :price => 4.00])
+    @shop.add_product(2, Hash[ :title => 'orange', :price => 3.25])
 
     assert_equal [Hash[ :id => 1, :title => 'apple' , :price => 2.50 ],
                   Hash[ :id => 2, :title => 'banana', :price => 4.00 ]], @shop.show_products(1)
@@ -115,8 +115,8 @@ class ShopAppTest < Test::Unit::TestCase
 
   def test_drop_product_from_shop
     @shop.add('U Antka')
-    @shop.add_product(1, { :title => 'apple', :price => 2.50 })
-    @shop.add_product(1, { :title => 'banana' :price => 4.00 })
+    @shop.add_product(1, Hash[ :title => 'apple', :price => 2.50])
+    @shop.add_product(1, Hash[ :title => 'banana', :price => 4.00])
     # 1wszy parametr - i dsklepu 2gi - id produktu
     assert @shop.drop_product(1, 2)
     assert_equal [Hash[ :id => 1, :title => 'apple' , :price => 2.50 ]], @shop.show_products(1)
