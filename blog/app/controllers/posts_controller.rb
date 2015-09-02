@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  before_filter :authenticate_user!, :except => [:index, :show]
+
   # GET /posts
   # GET /posts.json
   def index
@@ -24,7 +26,7 @@ class PostsController < ApplicationController
   # GET /posts/new
   # GET /posts/new.json
   def new
-    @post = Post.new
+    @post = current_user.posts.build
 
     respond_to do |format|
       format.html # new.html.erb
@@ -34,13 +36,16 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
-    @post = Post.find(params[:id])
+    @post = current_user.posts.where(id: params[:id]).first
+    if @post.nil?
+      redirect_to posts_path, notice: 'post not found'
+    end
   end
 
   # POST /posts
   # POST /posts.json
   def create
-    @post = Post.new(params[:post])
+    @post = current_user.posts.build(params[:post])
 
     respond_to do |format|
       if @post.save
@@ -56,15 +61,15 @@ class PostsController < ApplicationController
   # PUT /posts/1
   # PUT /posts/1.json
   def update
-    @post = Post.find(params[:id])
+    @post = current_user.posts.where(:id, params[:id]).first
 
-    respond_to do |format|
+    if @post.nil?
+      redirect_to posts_url, notice: 'post not found'
+    else
       if @post.update_attributes(params[:post])
-        format.html { redirect_to @post, notice: 'Post was successfully updated.' }
-        format.json { head :no_content }
+       redirect_to @post, notice: 'Post was successfully updated.'
       else
-        format.html { render action: "edit" }
-        format.json { render json: @post.errors, status: :unprocessable_entity }
+        render action: "edit"
       end
     end
   end
@@ -72,12 +77,12 @@ class PostsController < ApplicationController
   # DELETE /posts/1
   # DELETE /posts/1.json
   def destroy
-    @post = Post.find(params[:id])
-    @post.destroy
-
-    respond_to do |format|
-      format.html { redirect_to posts_url }
-      format.json { head :no_content }
+    @post = current_user.posts.where(id: params[:id]).first
+    if @post.nil?
+      redirect_to posts_url, notice: 'post not found'
+    else
+      @post.destroy
+      redirect_to posts_url
     end
   end
 end

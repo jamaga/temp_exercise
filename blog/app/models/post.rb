@@ -6,4 +6,5 @@ class Post < ActiveRecord::Base
   #to nam odwzorowuje tabele komentarzy
   #jak by byl 1 - has_one :comment
   has_many :comments
+  belongs_to :user
 end

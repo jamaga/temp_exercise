@@ -1,5 +1,7 @@
 Blog::Application.routes.draw do
 
+  devise_for :users
+
   get "statics/contact"
 
   #komentzrze sa zalezne od postow
