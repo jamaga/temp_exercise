@@ -61,7 +61,7 @@ class PostsController < ApplicationController
   # PUT /posts/1
   # PUT /posts/1.json
   def update
-    @post = current_user.posts.where(:id, params[:id]).first
+    @post = current_user.posts.where(id: params[:id]).first
 
     if @post.nil?
       redirect_to posts_url, notice: 'post not found'
