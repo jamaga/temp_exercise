@@ -7,4 +7,8 @@ class Post < ActiveRecord::Base
   #jak by byl 1 - has_one :comment
   has_many :comments
   belongs_to :user
+
+  def full_title
+    "#{title} [#{updated_at.strftime('%m/%d/%Y')}]"
+  end
 end

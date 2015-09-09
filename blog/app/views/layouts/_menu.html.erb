@@ -1,6 +1,7 @@
 <ul>
   <li><%= link_to 'main page', root_path %></li>
   <li><%= link_to 'blog', posts_path %></li>
+  <li><%= link_to 'contact', contacts_new_path %></li>
   <% if user_signed_in? %>
     <li><%= link_to 'edytuj profil', edit_user_registration_path %></li>
     <li><%= link_to 'wyloguj', destroy_user_session_path %></li>

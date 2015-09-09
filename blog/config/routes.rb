@@ -1,8 +1,10 @@
 Blog::Application.routes.draw do
 
-  devise_for :users
+  get "contacts/new"
 
-  get "statics/contact"
+  post "contacts/send_form"
+
+  devise_for :users
 
   #komentzrze sa zalezne od postow
   #i jest tylko akcja create komentarzy - chcemy tylko tworzy ckomentarze do postw
