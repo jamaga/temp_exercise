@@ -1,2 +1,7 @@
 <h1>Statics#home</h1>
 <p>Find me in app/views/statics/home.html.erb</p>
+<ol>
+<% @latest_posts.each do |one_post| %>
+  <li><%= link_to one_post.full_title, post_path(one_post.id) %></li>
+<% end %>
+</ol>

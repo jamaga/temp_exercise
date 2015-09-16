@@ -27,8 +27,14 @@
 
 <%= form_for [@post, Comment.new] do |f| %>
   <p>
+    <%= f.label :author, "author" %><br/>
+    <%= f.text_field :author %>
+  </p>
+  <p>
     <%= f.label :body, "New comment" %><br/>
     <%= f.text_area :body %>
   </p>
   <p><%= f.submit "Add comment" %></p>
+
 <% end %>
+
