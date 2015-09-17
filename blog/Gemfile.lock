@@ -66,7 +66,7 @@ GEM
     multi_json (1.11.2)
     mysql2 (0.3.20)
     orm_adapter (0.5.0)
-    paperclip (4.3.0)
+    paperclip (4.3.1)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
       cocaine (~> 0.5.5)
@@ -134,7 +134,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
-  mysql2
+  mysql2 (~> 0.3.10)
   paperclip (~> 4.3)
   rails (= 3.2.22)
   sass-rails (~> 3.2.3)

@@ -5,6 +5,7 @@ class UserTest < ActiveSupport::TestCase
   test 'should have necessary validators' do
     user = User.new
     assert !user.valid?
-    assert_equal [:email, :password, :password_confirmation, :remember_me, :avatar, :remove_avatar], user.errors.keys
+    #jak dodaje nowego uzytkownika na fromularzu - chemy tylkko EMAIL i PASSWORD
+    assert_equal [:email, :password], user.errors.keys
   end
 end

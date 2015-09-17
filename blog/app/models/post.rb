@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-  attr_accessible :body, :title
+  attr_accessible :body, :title, :updated_at, :visits_count
 
   validates_presence_of :body, :title
 

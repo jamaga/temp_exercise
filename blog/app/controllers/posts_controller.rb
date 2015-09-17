@@ -18,6 +18,10 @@ class PostsController < ApplicationController
   # GET /posts/1.json
   def show
     @post = Post.find(params[:id])
+    @post.visits_count = @post.visits_count + 1
+    @post.save
+    #@post.update_attribute(:visits_count, @post.visits_count + 1)
+
 
     respond_to do |format|
       format.html # show.html.erb
