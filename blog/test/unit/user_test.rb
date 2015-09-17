@@ -17,7 +17,9 @@ class UserTest < ActiveSupport::TestCase
   end
 
   test 'should save user with avatar' do
-
+    user = User.new({:email => 'ppaa@op.pl', :password => 'haszlo', :avatar_file_name => 'wczytany plik'})
+    user.save
+    assert_equal 'wczytany plik', user.avatar_file_name
   end
 
   test 'should save user with deleted avatar' do
