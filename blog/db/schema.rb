@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150917063715) do
+ActiveRecord::Schema.define(:version => 20150917100437) do
 
   create_table "comments", :force => true do |t|
     t.integer  "post_id"
@@ -35,9 +35,13 @@ ActiveRecord::Schema.define(:version => 20150917063715) do
     t.integer  "user_id"
     t.string   "title"
     t.text     "body"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
-    t.integer  "visits_count"
+    t.datetime "created_at",                         :null => false
+    t.datetime "updated_at",                         :null => false
+    t.integer  "visits_count",        :default => 0, :null => false
+    t.string   "avatar_file_name"
+    t.string   "avatar_content_type"
+    t.integer  "avatar_file_size"
+    t.datetime "avatar_updated_at"
   end
 
   add_index "posts", ["user_id"], :name => "index_posts_on_user_id"

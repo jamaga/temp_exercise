@@ -38,5 +38,10 @@
   </p>
   <p><%= f.submit "Add comment" %></p>
 
-<% end %>
+  <%= image_tag @post.avatar.url %>
+  <%= image_tag @post.avatar.url(:medium) %>
+  <%= image_tag @post.avatar.url(:thumb) %>
 
+  <li class="round-image-50"><%= image_tag(current_user.post.avatar.url(:thumb)) %></li>
+
+<% end %>

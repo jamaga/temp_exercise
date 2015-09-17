@@ -8,4 +8,19 @@ class UserTest < ActiveSupport::TestCase
     #jak dodaje nowego uzytkownika na fromularzu - chemy tylkko EMAIL i PASSWORD
     assert_equal [:email, :password], user.errors.keys
   end
+
+  test 'should add new user' do
+    user = User.new({:email => 'ppaa@op.pl', :password => 'haszlo'})
+    user.save
+    assert_equal 'ppaa@op.pl', user.email
+    assert_equal 'haszlo', user.password
+  end
+
+  test 'should save user with avatar' do
+
+  end
+
+  test 'should save user with deleted avatar' do
+
+  end
 end

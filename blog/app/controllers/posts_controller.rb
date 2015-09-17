@@ -52,6 +52,8 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = current_user.posts.build(params[:post])
+    @post = Post.create( params[:user] )
+    @post.save
 
     respond_to do |format|
       if @post.save
@@ -90,5 +92,11 @@ class PostsController < ApplicationController
       @post.destroy
       redirect_to posts_url
     end
+  end
+
+  private
+
+  def posts_params
+    params.require(:post).permit(:avatar)
   end
 end
