@@ -28,4 +28,12 @@ class ContactTest < ActiveSupport::TestCase
     assert !contact.valid?
     assert_equal [:body, :email, :subject], contact.errors.keys
   end
+
+  test 'should save when has body email and subject' do
+    contact = Contact.new({:body => 'jakies cialo', :email => 'jakis email', :subject => 'tytulik'})
+    contact.save
+    assert_equal 'jakies cialo', contact.body
+    assert_equal 'jakis email', contact.email
+    assert_equal 'tytulik', contact.subject
+  end
 end
