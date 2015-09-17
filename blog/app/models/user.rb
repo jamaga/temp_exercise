@@ -8,7 +8,7 @@ class User < ActiveRecord::Base
   validates_attachment_content_type :avatar, content_type: /\Aimage\/.*\Z/
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :avatar, :remove_avatar, :avatar_file_name
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :avatar, :remove_avatar, :avatar_file_name, :avatar_updated_at
   attr_accessor :remove_avatar
   has_many :posts
 
@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
 
   before_save :delete_avatar, if: ->{ remove_avatar == '1' && !avatar_updated_at_changed? }
 
-  private
+  #private
 
     def delete_avatar
       self.avatar = nil

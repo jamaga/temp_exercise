@@ -22,7 +22,15 @@ class UserTest < ActiveSupport::TestCase
     assert_equal 'wczytany plik', user.avatar_file_name
   end
 
+  #ale tutaj musialam sobie zakomentowac private w user.rb bo inaczej mialam blad:
+  # NoMethodError: private method `delete_avatar' called for #<User:0x007ff195549000>
   test 'should save user with deleted avatar' do
-
+    user = User.new({:email => 'ppaa@op.pl', :password => 'haszlo', :avatar_file_name => 'wczytany plik'})
+    user.save
+    assert_equal 'wczytany plik', user.avatar_file_name
+    #user.remove_avatar && !user.avatar_updated_at_changed?
+    user.delete_avatar
+    user.save
+    assert_equal nil, user.avatar_file_name
   end
 end
