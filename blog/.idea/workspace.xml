@@ -25,9 +25,9 @@
     <favorites_list name="blog" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5174538">
+    <splitter split-orientation="horizontal" split-proportion="0.5893224">
       <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.4268427">
+        <splitter split-orientation="vertical" split-proportion="0.2728273">
           <split-first>
             <leaf>
               <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="false">
@@ -73,7 +73,7 @@
               <file leaf-file-name="contact.rb" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.20891365" vertical-offset="0" max-vertical-offset="359">
+                    <state vertical-scroll-proportion="0.34246576" vertical-offset="0" max-vertical-offset="219">
                       <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                       <folding />
                     </state>
@@ -157,8 +157,8 @@
               <file leaf-file-name="contact_test.rb" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test/unit/contact_test.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.8148148" vertical-offset="114" max-vertical-offset="675">
-                      <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+                    <state vertical-scroll-proportion="0.40734825" vertical-offset="15" max-vertical-offset="675">
+                      <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
                       <folding />
                     </state>
                   </provider>
@@ -189,7 +189,7 @@
               <file leaf-file-name="user_test.rb" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/test/unit/user_test.rb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state vertical-scroll-proportion="0.17110266" vertical-offset="15" max-vertical-offset="630">
+                    <state vertical-scroll-proportion="0.058935363" vertical-offset="74" max-vertical-offset="630">
                       <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
                       <folding />
                     </state>
@@ -1176,7 +1176,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17110266" vertical-offset="15" max-vertical-offset="630">
+        <state vertical-scroll-proportion="0.058935363" vertical-offset="74" max-vertical-offset="630">
           <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
           <folding />
         </state>
@@ -1200,7 +1200,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20891365" vertical-offset="0" max-vertical-offset="359">
+        <state vertical-scroll-proportion="0.34246576" vertical-offset="0" max-vertical-offset="219">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
@@ -1208,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/contact_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8148148" vertical-offset="114" max-vertical-offset="675">
-          <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.40734825" vertical-offset="15" max-vertical-offset="675">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding />
         </state>
       </provider>
