@@ -11,7 +11,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20150917100437) do
+ActiveRecord::Schema.define(:version => 20150918063202) do
+
+  create_table "alerts", :force => true do |t|
+    t.datetime "alert_date"
+    t.integer  "post_id"
+    t.integer  "alert_count"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "comments", :force => true do |t|
     t.integer  "post_id"

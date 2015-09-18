@@ -8,8 +8,11 @@ Blog::Application.routes.draw do
 
   #komentzrze sa zalezne od postow
   #i jest tylko akcja create komentarzy - chcemy tylko tworzy ckomentarze do postw
+
+  # w resources posts mamy komentarze
   resources :posts do
     resources :comments, :only => [:create]
+    post 'alert', :to =>'posts#alert_post', :on => :member
   end
 
   root :to => "statics#home"

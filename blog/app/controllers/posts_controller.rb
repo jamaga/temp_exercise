@@ -1,8 +1,20 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!, :except => [:index, :show]
 
-  # GET /posts
-  # GET /posts.json
+  def alert_post
+    #uzytjkownik klika i sie ta metoda wywoluje:
+    #date_zgloszenia, id_postu, ilosc_zgloszen
+    # polaczyc relacje z innym modelem musze:
+    #1. musze ZNALESC POSTA:
+    @post = Post.find(params[:id])
+    #polaczyc POSTA z ALERTEM - laczymy zawsze po id
+    @alert = @post.alerts.build
+    @alert.alert_count = @alert.alert.count + 1
+    @alert.alert_date = Time.now
+    @alert.save
+    # powyzej juz mamy akcje
+  end
+
   def index
     #@posts = Post.all
 

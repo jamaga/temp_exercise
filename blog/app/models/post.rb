@@ -10,6 +10,7 @@ class Post < ActiveRecord::Base
   #to nam odwzorowuje tabele komentarzy
   #jak by byl 1 - has_one :comment
   has_many :comments
+  has_many :alerts
   belongs_to :user
 
   before_save :delete_avatar, if: ->{ remove_avatar == '1' && !avatar_updated_at_changed? }
