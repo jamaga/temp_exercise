@@ -24,4 +24,10 @@ class PostTest < ActiveSupport::TestCase
     post.save
     assert_equal 'tytul [09/02/2015]', post.full_title
   end
+
+  test 'should save post with avatar' do
+    post = Post.new({:body => 'post body', :title => 'jakis tytul', :avatar_file_name => 'jakis avatar'})
+    post.save
+    assert_equal 'jakis avatar', post.avatar_file_name
+  end
 end

@@ -20,6 +20,11 @@
   <%= @post.body %>
 </p>
 
+<% if @post.avatar? %>
+  <%= link_to @post.avatar.url, :target => '_blank' do %>
+    <%= image_tag @post.avatar.url(:thumb) %>
+  <% end %>
+<% end %>
 
 <hr>
 <h2>Comments</h2>
@@ -37,11 +42,5 @@
     <%= f.text_area :body %>
   </p>
   <p><%= f.submit "Add comment" %></p>
-
-  <%= image_tag @post.avatar.url %>
-  <%= image_tag @post.avatar.url(:medium) %>
-  <%= image_tag @post.avatar.url(:thumb) %>
-
-  <li class="round-image-50"><%= image_tag(current_user.post.avatar.url(:thumb)) %></li>
 
 <% end %>

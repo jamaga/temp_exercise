@@ -20,7 +20,8 @@ class User < ActiveRecord::Base
 
   before_save :delete_avatar, if: ->{ remove_avatar == '1' && !avatar_updated_at_changed? }
 
-  #private
+  private
+  #mamy attr_accessor - remove avatar  - jesli si e rowna 1 w parametrze - w tescie
 
     def delete_avatar
       self.avatar = nil
