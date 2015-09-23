@@ -9,9 +9,11 @@ class PostsController < ApplicationController
     @post = Post.find(params[:id])
     #polaczyc POSTA z ALERTEM - laczymy zawsze po id
     @alert = @post.alerts.build
-    @alert.alert_count = @alert.alert.count + 1
+    @alert.alert_count = @alert.alert_count + 1
     @alert.alert_date = Time.now
     @alert.save
+
+    render json: @alert
     # powyzej juz mamy akcje
   end
 

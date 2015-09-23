@@ -1,7 +1,8 @@
 <%= link_to 'Back', posts_path %> |
 <%= link_to 'Edit', edit_post_path(@post) %>
 <h5> ilosc wyswietlen <%= @post.visits_count %></h5>
-<%= link_to 'Alerts', alert_post_path %>
+<%= link_to 'Zglos problem', alert_post_path, :remote => true, :method => :post, :id => 'notify_problem' %>
+<div id='notify_message'></div>
 
 <p>
   <b>Author:</b>

@@ -30,4 +30,14 @@ class PostTest < ActiveSupport::TestCase
     post.save
     assert_equal 'jakis avatar', post.avatar_file_name
   end
+
+  test 'must be ordered ASC by updated date' do
+    posts_title = Post.ordered('ASC').pluck(:title)
+    assert_equal ["MyString", "MyString2"], posts_title
+  end
+
+  test 'must be ordered DESC by updated date' do
+    posts_title = Post.ordered('DESC').pluck(:title)
+    assert_equal ["MyString2", "MyString"], posts_title
+  end
 end

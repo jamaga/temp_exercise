@@ -1,4 +1,7 @@
-ENV["RAILS_ENV"] = "test"
+ENV["RAILS_ENV"] ||= "test"
+require 'simplecov'
+SimpleCov.coverage_dir "#{File.expand_path(File.dirname(File.dirname(__FILE__)))}/tmp/coverage"
+SimpleCov.start 'rails'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'
 

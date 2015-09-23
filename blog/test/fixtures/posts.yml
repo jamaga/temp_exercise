@@ -4,8 +4,11 @@ one:
   title: MyString
   body: MyText
   user_id: 1
+  updated_at: 2015-01-05 12:10:10
 
 two:
   title: MyString2
   body: MyText2
   user_id: 1
+  updated_at: 2015-03-05 12:10:10
+
