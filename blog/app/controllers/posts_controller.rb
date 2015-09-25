@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!, :except => [:index, :show]
+  after_filter :notify_log, :only => [:create]
 
   def alert_post
     #uzytjkownik klika i sie ta metoda wywoluje:
@@ -106,4 +107,11 @@ class PostsController < ApplicationController
       redirect_to posts_url
     end
   end
+
+  private
+
+    def notify_log
+      puts '____________________________________________________'
+    end
+
 end

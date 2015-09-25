@@ -20,6 +20,7 @@ class Post < ActiveRecord::Base
   scope :latest_published, order("created_at DESC").limit(5)
 
   before_save :delete_avatar, if: ->{ remove_avatar == '1' && !avatar_updated_at_changed? }
+  before_validation :zamiana_litery
 
   def full_title
     "#{title} [#{updated_at.strftime('%m/%d/%Y')}]"
@@ -31,7 +32,7 @@ class Post < ActiveRecord::Base
 
   def must_be_first_letter
     if self.title.present?
-      errors.add(:title, "must have first LETTER") unless self.title.match(/^[a-z]/)
+      errors.add(:title, "must have first LETTER") unless self.title.match(/^[a-zA-Z]/)
     end
   end
 
@@ -39,5 +40,9 @@ class Post < ActiveRecord::Base
 
     def delete_avatar
       self.avatar = nil
+    end
+
+    def zamiana_litery
+      self.title[0] = self.title[0].upcase
     end
 end

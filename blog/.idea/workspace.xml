@@ -29,18 +29,18 @@
       <file leaf-file-name="post.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/post.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="735">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_controller_test.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/functional/posts_controller_test.rb">
+      <file leaf-file-name="comment.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5707071" vertical-offset="66" max-vertical-offset="855">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35353535" vertical-offset="0" max-vertical-offset="594">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -69,7 +69,6 @@
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/test/unit/contact_test.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/test/unit/comment_test.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/test/unit/user_test.rb" />
@@ -78,16 +77,17 @@
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/posts.js" />
         <option value="$PROJECT_DIR$/app/controllers/statics_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_menu.html.erb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/post.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lib/tasks/test.rake" />
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/posts.yml" />
         <option value="$PROJECT_DIR$/test/unit/post_test.rb" />
         <option value="$PROJECT_DIR$/test/functional/posts_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/app/models/comment.rb" />
       </list>
     </option>
   </component>
@@ -95,8 +95,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
-    <option name="y" value="23" />
+    <option name="x" value="-7" />
+    <option name="y" value="39" />
     <option name="width" value="1205" />
     <option name="height" value="740" />
   </component>
@@ -188,6 +188,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -196,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="post_cont&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/functional/posts_controller_test.rb&#10;post_test&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;gemfile&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;applica&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/application.rb&#10;routes&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;posts/_&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/posts/_form.html.erb&#10;user&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/models/user.rb&#10;contact&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/contact_test.rb&#10;post&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;test_helper.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;gemfil&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;gem&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;development.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;test_hel&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;home&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/statics/home.html.erb&#10;fixture&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;devise/&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/devise&#10;devi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;devise.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;develop&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;gemfi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;deve&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;ro&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/controllers/posts_controller.rb&#10;rou&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;rout&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="gemfile&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;post_cont&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/functional/posts_controller_test.rb&#10;post_test&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;applica&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/application.rb&#10;routes&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;posts/_&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/posts/_form.html.erb&#10;user&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/models/user.rb&#10;contact&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/contact_test.rb&#10;post&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;test_helper.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;gemfil&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;gem&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;development.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;test_hel&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;home&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/statics/home.html.erb&#10;fixture&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;devise/&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/devise&#10;devi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;devise.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;develop&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;gemfi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;deve&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;ro&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/controllers/posts_controller.rb&#10;rou&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;rout&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="editor.preferences.folding" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -400,7 +418,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="23" width="1205" height="740" extended-state="6" />
+    <frame x="-7" y="39" width="1205" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -681,14 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="630">
@@ -788,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61728394" vertical-offset="0" max-vertical-offset="1725">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
@@ -808,14 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37878788" vertical-offset="140" max-vertical-offset="810">
           <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3621399" vertical-offset="4" max-vertical-offset="795">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -854,18 +848,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+    <entry file="file://$PROJECT_DIR$/test/functional/posts_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="735">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state vertical-scroll-proportion="1.0353535" vertical-offset="0" max-vertical-offset="855">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/posts_controller_test.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5707071" vertical-offset="66" max-vertical-offset="855">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.05050505" vertical-offset="0" max-vertical-offset="1845">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24579124" vertical-offset="4" max-vertical-offset="825">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35353535" vertical-offset="0" max-vertical-offset="594">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding />
         </state>
       </provider>
