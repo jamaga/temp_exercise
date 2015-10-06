@@ -26,21 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <file leaf-file-name="posts_controller_test.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/functional/posts_controller_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.78519857" vertical-offset="0" max-vertical-offset="915">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35353535" vertical-offset="0" max-vertical-offset="594">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state vertical-scroll-proportion="-14.518518" vertical-offset="1318" max-vertical-offset="1845">
+              <caret line="114" column="7" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -53,7 +53,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20150902060144_add_user_to_post.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/contacts/new.html.erb" />
@@ -65,7 +64,6 @@
         <option value="$PROJECT_DIR$/test/functional/statics_controller_test.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20150917063715_add_visits_count_to_post.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/test/unit/contact_test.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
@@ -83,11 +81,15 @@
         <option value="$PROJECT_DIR$/test/test_helper.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/posts.yml" />
         <option value="$PROJECT_DIR$/test/unit/post_test.rb" />
-        <option value="$PROJECT_DIR$/test/functional/posts_controller_test.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
+        <option value="$PROJECT_DIR$/app/views/comment_mailer/welcome_email.html.erb" />
+        <option value="$PROJECT_DIR$/app/mailers/comment_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/comments_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/test/functional/posts_controller_test.rb" />
       </list>
     </option>
   </component>
@@ -95,10 +97,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="39" />
-    <option name="width" value="1205" />
-    <option name="height" value="740" />
+    <option name="x" value="11" />
+    <option name="y" value="28" />
+    <option name="width" value="1230" />
+    <option name="height" value="700" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -184,7 +186,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comment_mailer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,6 +274,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mailers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -214,7 +332,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="SearchEverywhereHistoryKey" value="gemfile&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;post_cont&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/functional/posts_controller_test.rb&#10;post_test&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;applica&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/application.rb&#10;routes&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;posts/_&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/posts/_form.html.erb&#10;user&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/models/user.rb&#10;contact&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/contact_test.rb&#10;post&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;test_helper.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;gemfil&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;gem&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;development.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;test_hel&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;home&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/statics/home.html.erb&#10;fixture&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;devise/&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/devise&#10;devi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;devise.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;develop&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;gemfi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;deve&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;ro&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/controllers/posts_controller.rb&#10;rou&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;rout&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="fix&#9;FILE&#9;file:///Users/choripanera/.rvm/gems/ruby-2.1.5/gems/activerecord-3.2.22/lib/active_record/fixtures.rb&#10;test_&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/latest_specs.4.8.gz&#10;post_controller&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/controllers/posts_controller.rb&#10;post_con&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/functional/posts_controller_test.rb&#10;develo&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;routes&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;gemfile&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;post_cont&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/functional/posts_controller_test.rb&#10;post_test&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;applica&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/application.rb&#10;posts/_&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/posts/_form.html.erb&#10;user&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/models/user.rb&#10;contact&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/contact_test.rb&#10;post&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/unit/post_test.rb&#10;test_helper.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;gemfil&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;gem&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;development.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;test_hel&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/test/test_helper.rb&#10;home&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/statics/home.html.erb&#10;fixture&#9;null&#9;null&#10;route&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;devise/&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/views/devise&#10;devi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;devise.rb&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/initializers/devise.rb&#10;develop&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;gemfi&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/Gemfile&#10;deve&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/environments/development.rb&#10;ro&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/app/controllers/posts_controller.rb&#10;rou&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb&#10;rout&#9;FILE&#9;file:///Users/choripanera/work/cwiczenia/katas_and_exercises/blog/config/routes.rb" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="editor.preferences.folding" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -418,13 +536,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="39" width="1205" height="740" extended-state="0" />
+    <frame x="11" y="28" width="1230" height="700" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17363344" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26804122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30357143" sideWeight="0.37138262" order="2" side_tool="true" content_ui="tabs" />
@@ -432,7 +550,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28030956" sideWeight="0.62861735" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23737374" sideWeight="0.62861735" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -488,22 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3323" max-vertical-offset="4020">
-          <caret line="229" column="10" selection-start-line="229" selection-start-column="4" selection-end-line="229" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="945">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
@@ -556,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/activerecord-3.2.22/lib/active_record/fixtures.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48958334" vertical-offset="5253" max-vertical-offset="13920">
-          <caret line="369" column="32" selection-start-line="369" selection-start-column="32" selection-end-line="369" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/statics/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29745042" vertical-offset="0" max-vertical-offset="353">
@@ -583,14 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
           <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44237918" vertical-offset="316" max-vertical-offset="705">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -675,14 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35472974" vertical-offset="0" max-vertical-offset="592">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34816247" vertical-offset="45" max-vertical-offset="735">
@@ -739,26 +817,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17676768" vertical-offset="0" max-vertical-offset="594">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8333333" vertical-offset="0" max-vertical-offset="1020">
           <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="594">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -840,50 +902,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/alert.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25252524" vertical-offset="0" max-vertical-offset="594">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/posts_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0353535" vertical-offset="0" max-vertical-offset="855">
-          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05050505" vertical-offset="0" max-vertical-offset="1845">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24579124" vertical-offset="4" max-vertical-offset="825">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/comment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35353535" vertical-offset="0" max-vertical-offset="594">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.7914573" vertical-offset="0" max-vertical-offset="405">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/comment_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33919597" vertical-offset="0" max-vertical-offset="398">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56532663" vertical-offset="0" max-vertical-offset="398">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67839193" vertical-offset="0" max-vertical-offset="398">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/comment_mailer/welcome_email.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647" vertical-offset="0" max-vertical-offset="374">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75376886" vertical-offset="0" max-vertical-offset="795">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6407035" vertical-offset="0" max-vertical-offset="810">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7361809" vertical-offset="382" max-vertical-offset="780">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.5/gems/activerecord-3.2.22/lib/active_record/fixtures.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3465704" vertical-offset="5163" max-vertical-offset="13920">
+          <caret line="357" column="17" selection-start-line="357" selection-start-column="6" selection-end-line="357" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27075812" vertical-offset="0" max-vertical-offset="554">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.518518" vertical-offset="1318" max-vertical-offset="1845">
+          <caret line="114" column="7" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/posts_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78519857" vertical-offset="0" max-vertical-offset="915">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>

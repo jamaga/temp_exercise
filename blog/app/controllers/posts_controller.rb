@@ -111,7 +111,7 @@ class PostsController < ApplicationController
   private
 
     def notify_log
-      puts '____________________________________________________'
+      #puts '____________________________________________________'
     end
 
 end

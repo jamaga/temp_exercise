@@ -140,7 +140,6 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   jquery-rails
-  mail
   mysql2 (~> 0.3.10)
   paperclip (~> 4.3)
   rails (= 3.2.22)
