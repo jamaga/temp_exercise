@@ -15,5 +15,7 @@ Blog::Application.routes.draw do
     post 'alert', :to =>'posts#alert_post', :on => :member
   end
 
+  get '/set-terms-cookie', to: 'statics#set_cookie', as: 'set_cookie_terms'
+
   root :to => "statics#home"
 end

@@ -1,0 +1,5 @@
+<% flash.each do |level, message| %>
+  <div class="alert <%= flash_css_class(level.to_sym) %>">
+    <strong><%= message %></strong>
+  </div>
+<% end %>

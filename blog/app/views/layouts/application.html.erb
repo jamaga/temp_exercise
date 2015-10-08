@@ -3,17 +3,32 @@
 <head>
   <title>Blog</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", :media => "all" %>
+
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
-
 <%= render 'layouts/menu' %>
 
-<%= yield %>
+<div class="container">
+  <%= render 'layouts/notifications' %>
+
+
+  <%= yield %>
+
+  <br><br><p>jestes na tej stronie <%= session[:views].to_i %> raz </p><br><br>
+</div>
+
+
+<!--unless - pokazujemy te wiadomosc i czekamy n ainterackjce uzytkownika, jak mamy cookies - nie pokazujamy-->
+<% unless cookies['cookie_terms'] %>
+  <div data-selector="cookies-info">
+    Używamy plików cookies i podobnych technologii w celu realizacji usług oraz statystycznych. Korzystanie z witryny bez zmiany ustawień przeglądarki internetowej oznacza zgodę na zapisanie i dostęp do tych plików. Więcej szczegółów, w Polityce prywatności.
+    <button data-selector="cookies-info-close" type="button">Zamknij [js]</button>
+    <%= link_to 'Zamkin [ruby]', set_cookie_terms_path %>
+  </div>
+<% end %>
+<%= javascript_include_tag "application" %>
 
 </body>
 </html>
