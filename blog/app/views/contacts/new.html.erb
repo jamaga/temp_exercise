@@ -1,4 +1,4 @@
-<h1>Contacts#new</h1>
+<h1>Contact nowy</h1>
 
 <%= form_for(@contact, :url => contacts_send_form_path) do |f| %>
   <% if @contact.errors.any? %>
@@ -26,7 +26,8 @@
     <%= f.text_area :body %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <button class="btn btn-info" type="submit">Create Contact</button>
   </div>
+
 <% end %>
 
