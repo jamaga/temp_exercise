@@ -1,12 +1,20 @@
+<div class="text-center">
+
 <h2>Strona glowna</h2>
 <div class="row">
-  <div class="col-md-8">
-    <table class="table table-striped">
+  <div class="col-md-5">
+
+    <table class="table table-bordered">
+
       <% @latest_posts.each do |one_post| %>
         <tr>
+
           <td><%= link_to one_post.full_title, post_path(one_post.id) %></td>
+
         </tr>
       <% end %>
     </table>
   </div>
+</div>
+
 </div>
