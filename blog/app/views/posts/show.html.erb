@@ -1,27 +1,38 @@
-<button class="btn btn-success"><%= link_to 'Back', posts_path %></button> |
-<button class="btn btn-warning"><%= link_to 'Edit', edit_post_path(@post) %></button> |
+<div class="row">
+  <div class="col-xs-8">
+    <%= link_to 'Edit', edit_post_path(@post), class: 'btn btn-success' %>
+  </div>
+  <div class="col-xs-4">
+    <div class="pull-right">
+      <%= link_to 'Zglos problem', alert_post_path, :remote => true, :method => :post, :id => 'notify_problem', class: "btn btn-info" %>
+      <%= link_to 'Back', posts_path, class: 'btn btn-warning' %>
+    </div>
+  </div>
+</div>
+
 <h5> ilosc wyswietlen <%= @post.visits_count %></h5>
-<button class="btn btn-info" type="submit"><%= link_to 'Zglos problem', alert_post_path, :remote => true, :method => :post, :id => 'notify_problem' %>
-</button>
-<div id='notify_message'></div>
 
-<p>
-  <b>Author:</b>
-
-  <%= @post.user.email %>
-</p>
 
 <p id="notice"><%= notice %></p>
+<div id='notify_message'></div>
 
-<p>
-  <b>Title:</b>
-  <%= @post.title %>
-</p>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Author:</th>
+      <th>Title:</th>
+      <th>Body:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><%= @post.user.email %></td>
+      <td><%= @post.title %></td>
+      <td><%= @post.body %></td>
+    </tr>
+  </tbody>
+</table>
 
-<p>
-  <b>Body:</b>
-  <%= @post.body %>
-</p>
 
 <% if @post.avatar? %>
   <%= link_to @post.avatar.url, :target => '_blank' do %>
@@ -30,21 +41,21 @@
 <% end %>
 
 <hr>
-<h2>Comments</h2>
+<h3>Comments</h3>
 <div id="comments">
   <%= render :partial => @post.comments %>
 </div>
 
-<%= form_for [@post, Comment.new] do |f| %>
-  <p>
-    <%= f.label :author, "author" %><br/>
-    <%= f.text_field :author %>
-  </p>
-  <p>
-    <%= f.label :body, "New comment" %><br/>
-    <%= f.text_area :body %>
-  </p>
-  <button class="btn btn-info" type="submit">Add comment</button>
 
-  </button>
+<%= form_for [@post, Comment.new] do |f| %>
+  <div class="form-group">
+    <%= f.label :author, "Author" %>
+    <%= f.text_field :author, class: "form-control", placeholder: "Author" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :body, "New comment" %>
+    <%= f.text_area :body, class: "form-control", placeholder: "Your Comment", rows: 3 %>
+  </div>
+  <%= f.submit "Add Comment", class: "btn btn-info" %>
+
 <% end %>
