@@ -14,7 +14,7 @@
 
   <div class="form-group">
     <%= f.label :password %> <i>(leave blank if you don't want to change it)</i><br />
-    <%= f.password_field :password, autocomplete: "off", class: 'form-control', placeholder: 'password' %>
+    <%= f.password_field :password, autocomplete: "off", class: 'form-control', placeholder: 'password,min 8 characters' %>
   </div>
 
   <div class="form-group">
@@ -36,13 +36,13 @@
       <% end %>
     <% end %>
     <br>
-    <%= f.file_field :avatar, :class => "btn btn-small btn-primary btn-inverse" %>
+    <%= f.file_field :avatar, :class => "btn btn-small" %>
   </div>
   <hr>
 
-  <div class="field">
+  <div class="form-group>
     <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-    <%= f.password_field :current_password, autocomplete: "off" %>
+    <%= f.password_field :current_password, autocomplete: "off", class: 'form-control', placeholder: 'your current password' %>
   </div>
 
   <br>

@@ -13,17 +13,17 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :email %><br />
-    <%= f.text_field :email %>
+    <%= f.text_field :email, class: 'form-control', placeholder: 'your email' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :subject %><br />
-    <%= f.text_field :subject %>
+    <%= f.text_field :subject, class: 'form-control', placeholder: 'suncject of the post' %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :body %><br />
-    <%= f.text_area :body %>
+    <%= f.text_area :body, class: 'form-control', placeholder: 'leave your comment here', rows: 3 %>
   </div>
   <div class="actions">
     <button class="btn btn-info" type="submit">Create Contact</button>
