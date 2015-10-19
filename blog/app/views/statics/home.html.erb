@@ -2,7 +2,7 @@
   <div class="col-xs-6 col-md-4"></div>
   <div class="col-xs-6 col-md-4">
     <h2>Strona glowna</h2>
-    <table class="table table-bordered">
+    <table class="table table-condensed.info">
       <% @latest_posts.each do |one_post| %>
         <tr>
           <td><%= link_to one_post.full_title, post_path(one_post.id) %></td>
