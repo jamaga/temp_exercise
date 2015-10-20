@@ -7,4 +7,4 @@
 one:
   id: 1
   email: sample@domain.com
-  encrypted_password: $2a$10$80vaTqWYsfJmMmJqe57J/.IPd3SK6nK7xUpw7z7a2iFAHyrGp.j7S
+  encrypted_password: <%= Devise.bcrypt(User, 'qwerty12!@') %>
