@@ -3,9 +3,11 @@
     <h1>Contact</h1>
     <div>
   </div>
-<% if flash[:notice] %>
-  <p><%= flash[:notice] %></p>
-<% end %>
+    <div class="alert alert-info">
+    <% if flash[:notice] %>
+      <p><%= flash[:notice] %></p>
+        </div>
+    <% end %>
   <div class="col-md-2">
 
 
@@ -14,7 +16,9 @@
         <div id="error_explanation">
           <ul>
             <% @contact.errors.full_messages.each do |msg| %>
+              <div class="alert alert-danger">
               <div id='notify_message'> <li><%= msg %></li></div>
+                </div>
           <% end %>
           </ul>
         </div>
