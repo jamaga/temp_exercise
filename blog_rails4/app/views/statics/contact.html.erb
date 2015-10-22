@@ -1,2 +1,40 @@
-<h1>Statics#contact</h1>
-<p>Find me in app/views/statics/contact.html.erb</p>
+<div class="row">
+  <div class="col-md-10">
+    <h1>Contact</h1>
+    <div>
+  </div>
+<% if flash[:notice] %>
+  <p><%= flash[:notice] %></p>
+<% end %>
+  <div class="col-md-2">
+
+
+    <%= form_for @contact, url: statics_contact_path do |f| %>
+      <% if @contact.errors.any? %>
+        <div id="error_explanation">
+          <ul>
+            <% @contact.errors.full_messages.each do |msg| %>
+              <div id='notify_message'> <li><%= msg %></li></div>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th>Author:</th>
+          <th>Subject:</th>
+          <th>Body:</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td> <%= f.text_field :author %></td>
+          <td><%= f.text_field :subject %></td>
+          <td><%= f.text_area :body %></td>
+        </tr>
+        </tbody>
+      </table>
+      <%= f.submit  "Add Contact", class: "btn btn-info"%>
+      </div>
+<% end %>

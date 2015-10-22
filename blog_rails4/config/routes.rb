@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'statics/home'
 
-  get 'statics/contact'
+  match 'statics/contact', via: [:get, :post]
 
 
   # The priority is based upon order of creation: first created -> highest priority.
