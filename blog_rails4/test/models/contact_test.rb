@@ -2,19 +2,11 @@ require 'test_helper'
 
 class ContactTest < ActiveSupport::TestCase
 
-  test 'body is mandatory' do
-    assert_equal Contact.new.errors[:body].any?, false
-    assert_equal Contact.create.errors[:body].any?, true
-  end
-
-  test 'author is mandatory' do
-    assert_equal Contact.new.errors[:author].any?, false
-    assert_equal Contact.create.errors[:author].any?, true
-  end
-
-  test 'subject is mandatory' do
-    assert_equal Contact.new.errors[:subject].any?, false
-    assert_equal Contact.create.errors[:subject].any?, true
+  test 'body, author, subject are mandatory' do
+    c = Contact.create
+    assert_equal c.errors[:body].any?, true
+    assert_equal c.errors[:author].any?, true
+    assert_equal c.errors[:subject].any?, true
   end
 
   test 'valid when have all attributes' do
