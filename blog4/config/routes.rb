@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   devise_for :users
 
-  get "registrations/new"
+  get 'registrations/new'
+
+  match 'users/sign_in', via: [:get, :post]
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
