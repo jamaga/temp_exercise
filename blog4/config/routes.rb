@@ -1,9 +1,20 @@
 Rails.application.routes.draw do
+  get 'users/home'
+
+  get 'users/set_cookie'
+
+  get 'blog_posts/home'
+
+  get 'blog_posts/set_cookie'
+
   devise_for :users
 
   get 'registrations/new'
 
   match 'users/sign_in', via: [:get, :post]
+
+  root :to => "users#home"
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
