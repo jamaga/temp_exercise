@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog4</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", :media => "all" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= render 'layouts/menu' %>
+
+<div class="container">
+  <%= render 'layouts/notifications' %>
+
+  <% flash.each do |level, message| %>
+  <div class="notify notify-<%= level.to_s %>">
+    <%= message %>
+  </div>
+<% end %>
+
+<%= yield %>
+
+  <br><br><h5>jestes na tej stronie <%= session[:views].to_i %> raz </h5><br><br>
+</div>
+
+<% unless cookies['cookie_terms'] %>
+  <div data-selector="cookies-info">
+    Używamy plików cookies i podobnych technologii w celu realizacji usług oraz statystycznych. Korzystanie z witryny bez zmiany ustawień przeglądarki internetowej oznacza zgodę na zapisanie i dostęp do tych plików. Więcej szczegółów, w Polityce prywatności.
+    <button data-selector="cookies-info-close" type="button">Zamknij [js]</button>
+    <%= link_to 'Zamkin [ruby]', set_cookie_terms_path %>
+  </div>
+<% end %>
+<%= javascript_include_tag "application" %>
+
+</body>
+</html>
