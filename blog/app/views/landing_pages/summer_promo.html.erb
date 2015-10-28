@@ -1,0 +1,18 @@
+<h2 class="text-center">Summer Promo</h2>
+
+<div class="row">
+  <div class="col-md-4"></div>
+
+  <div class="col-md-4">
+    <%= form_tag(landing_pages_summer_promo_path) do %>
+      <div class="form-group">
+        <%= text_field_tag :code, nil, class: 'form-control input-lg', placeholder: 'Promo code' %>
+      </div>
+      <div class="text-center">
+        <%= submit_tag 'Apply', class: 'btn btn-primary btn-lg' %>
+      </div>
+    <% end %>
+  </div>
+  <div class="col-md-4"></div>
+
+</div>
