@@ -2,9 +2,7 @@
   <div class="container-fluid">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><%#= link_to 'main page', root_path %></li>
-        <li><%#= link_to 'blog', posts_path %></li>
-        <li><%#= link_to 'contact', contacts_new_path %></li>
+        <li><%= link_to 'home page', root_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>

@@ -7,31 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 <%= render 'layouts/menu' %>
-
 <div class="container">
-  <%= render 'layouts/notifications' %>
-
   <% flash.each do |level, message| %>
-  <div class="notify notify-<%= level.to_s %>">
-    <%= message %>
-  </div>
-<% end %>
-
-<%= yield %>
-
-  <br><br><h5>jestes na tej stronie <%= session[:views].to_i %> raz </h5><br><br>
+    <div class="alert <%= flash_css_class(level.to_sym) %>">
+      <%= message %>
+    </div>
+  <% end %>
+  <%= yield %>
 </div>
-
-<% unless cookies['cookie_terms'] %>
-  <div data-selector="cookies-info">
-    Używamy plików cookies i podobnych technologii w celu realizacji usług oraz statystycznych. Korzystanie z witryny bez zmiany ustawień przeglądarki internetowej oznacza zgodę na zapisanie i dostęp do tych plików. Więcej szczegółów, w Polityce prywatności.
-    <button data-selector="cookies-info-close" type="button">Zamknij [js]</button>
-    <%= link_to 'Zamkin [ruby]', set_cookie_terms_path %>
-  </div>
-<% end %>
 <%= javascript_include_tag "application" %>
-
 </body>
 </html>
