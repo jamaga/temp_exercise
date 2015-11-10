@@ -2,6 +2,14 @@ Blog::Application.routes.draw do
 
 
 
+  #musimy uzyc to - bo ZMIENIAMY routsy - railsy musza wiedziec do jakiego Kontrollera trafi
+  #musimy wskazac do jakiego kontolera ma trafic
+  get "winter-promo", to: 'winter_promo#show', as: 'winter_promo'
+
+  post "winter-promo/save", to: 'winter_promo#save', as: 'winter_promo_save'
+
+  get "winter-promo/success", to: 'winter_promo#success', as: 'winter_promo_success'
+
   get "contacts/new"
 
   post "contacts/send_form"
