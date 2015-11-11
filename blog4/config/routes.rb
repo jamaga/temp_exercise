@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'log_out/show'
+
+  post 'log_out/success'
+
+  get 'log_in/show'
+
+  post 'log_in/success'
+
   get 'signup/show'
 
   post 'signup/save'
