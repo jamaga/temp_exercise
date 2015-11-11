@@ -1,0 +1,18 @@
+<h1>Signup#show</h1>
+
+<% unless @error.nil? %>
+  <p id="errors"><%= @error %></p>
+<% end %>
+
+<%= form_tag signup_save_path do %>
+  <div>
+    <%= text_field_tag 'signup[email]' %>
+  </div>
+  <div>
+    <%= text_field_tag 'signup[password]' %>
+  </div>
+  <div>
+    <%= text_field_tag 'signup[password_confirmation]' %>
+  </div>
+  <%= submit_tag %>
+<% end %>
