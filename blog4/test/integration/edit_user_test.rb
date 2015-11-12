@@ -2,7 +2,10 @@ require 'test_helper'
 
 class EditUserTest < ActionDispatch::IntegrationTest
   test 'successful edit of an user' do
-    if user_signed_in?
+
+    get '/users/sign_in'
+    assert_response :success
+
       get 'users/edit'
       assert_response :success
       assert_select 'form' do
@@ -11,13 +14,11 @@ class EditUserTest < ActionDispatch::IntegrationTest
         assert_select '[name=?]', 'user[password_confirmation]'
         assert_select '[name=?]', 'user[current_password]'
       end
-    else
+  end
+
+  test  'unsuccessful sign in of an user' do
       get 'users/edit'
       assert_response :redirect
       assert_redirected_to '/users/sign_in'
-    end
   end
 end
-
-
-
