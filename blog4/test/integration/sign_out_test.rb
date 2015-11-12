@@ -1,10 +1,13 @@
 require 'test_helper'
 
 class SignOutTest < ActionDispatch::IntegrationTest
-  test 'successful log_out' do
-    get '/'
-    assert_response :success
-    assert_equal 'Signed out successfully.', flash[:notice]
+  test 'successful sign out' do
+    get '/users/sign_out'
+    assert_response :redirect
+
+    assert_redirected_to '/'
+    #jakby nie widzialo na stronie glownej tego napisu :(
+    assert_select '.alert-info', 'Signed out successfully.'
   end
 end
 
