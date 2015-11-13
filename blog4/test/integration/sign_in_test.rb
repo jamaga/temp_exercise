@@ -10,6 +10,8 @@ class SignInTest < ActionDispatch::IntegrationTest
     end
 
     post_via_redirect '/users/sign_in', :user => { :email => 'john@domain.com', :password => 'qwerty12!@' }
+    #poprawic tego URLA - na /account/dashboard - na taki sam
+    #url jak na sign_upie
     assert_equal '/users/sign_in', path
     assert_select '.alert-info', 'Signed in successfully.'
   end
