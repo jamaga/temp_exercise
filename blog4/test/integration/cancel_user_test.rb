@@ -19,14 +19,19 @@ class CancelUserTest < ActionDispatch::IntegrationTest
     assert_select '.alert-info', 'Bye! Your account has been successfully cancelled. We hope to see you again soon.'
   end
 
+#jeszcze  - dla cancel_user
+#nie mozamy usunac konta kiedy nie jestesmy zalogowani ! - ale nie mozemy wejsc zeby
+#edytowac usera jak nie jestesmy zalogowani- nie trzeba tutaj testu ?
+  # zrobilam ze nie mozna wejsc na users/edit jak sie nie jest zalogowanym
+
   test 'we cannot remove account if we are not signed in' do
+    get '/users/edit'
+    assert_response :redirect
 
-
+    get '/users/sign_in'
+    assert_select '.alert-warning', 'You need to sign in or sign up before continuing.'
 
   end
 end
 
-#jeszcze  - dla cancel_user
-#nie mozamy usunac konta kiedy nie jestesmy zalogowani ! - ale nie mozemy wejsc zeby
-#edytowac usera jak nie jestesmy zalogowani- nie trzeba tutaj testu ?
 
