@@ -23,9 +23,20 @@ class EditUserTest < ActionDispatch::IntegrationTest
     assert_response :redirect
     assert_redirected_to '/users/sign_in'
   end
-end
 
 #jeszcze test
 #kiedy udalo nam sie zalogowac ale
 #wypelnilismy blednie formularz - no nie podalismy current password!!!
+
+  test 'we didint write current password' do
+    post_via_redirect '/users/sign_in', :user => { :email => 'john@domain.com', :password => 'qwerty12!@' }
+    get '/users/edit'
+    assert_response :success
+
+    put_via_redirect '/users', :user => { :email => 'john@domain.com', :password => 'qwertyui', :passwrod_conformation => 'qwertyui', :current_password => '' }
+    assert_select '.alert-danger li', 'Current password can\'t be blank'
+
+  end
+end
+
 

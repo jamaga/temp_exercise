@@ -18,7 +18,15 @@ class CancelUserTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select '.alert-info', 'Bye! Your account has been successfully cancelled. We hope to see you again soon.'
   end
+
+  test 'we cannot remove account if we are not signed in' do
+
+
+
+  end
 end
 
 #jeszcze  - dla cancel_user
-#nie mozamy usunac konta kiedy nie jestesmy zalogowani !
+#nie mozamy usunac konta kiedy nie jestesmy zalogowani ! - ale nie mozemy wejsc zeby
+#edytowac usera jak nie jestesmy zalogowani- nie trzeba tutaj testu ?
+
