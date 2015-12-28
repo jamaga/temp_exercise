@@ -1,7 +1,5 @@
 Blog::Application.routes.draw do
 
-
-
   #musimy uzyc to - bo ZMIENIAMY routsy - railsy musza wiedziec do jakiego Kontrollera trafi
   #musimy wskazac do jakiego kontolera ma trafic
   get "winter-promo", to: 'winter_promo#show', as: 'winter_promo'

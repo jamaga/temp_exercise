@@ -9,9 +9,10 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>
+          <li><%= current_user.discount_percent %></li>
           <li><%= link_to 'edytuj profil', edit_user_registration_path %></li>
           <li><%= link_to 'wyloguj', destroy_user_session_path %></li>
-        <% else %>
+      <% else %>
           <li><%= link_to 'zaloguj sie', new_user_session_path %></li>
         <% end %>
       </ul>

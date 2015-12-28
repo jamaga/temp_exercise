@@ -14,4 +14,3 @@ class ManagePostsTest < ActionDispatch::IntegrationTest
 end
 
 #tak samo edycja, widok wszystkich - lista, widok pojedynczego posta etc - tak testy integracyjne
-
