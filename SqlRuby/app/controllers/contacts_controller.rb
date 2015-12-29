@@ -48,10 +48,29 @@ class ContactsController < ApplicationController
   # GET /contacts/1.json
   def show
     #tutaj znajduje w bazie danych po ID wlasciwy wpis:
-    #   @contact = Contact.find(params[:id])
     #pobiera params id - pobiera 3 i za pomoca find znajduje po id konkretny wpis
-    @contact = Contact.find_by(:email => 'a@a', :id => 10)
+    #@contact = Contact.find_by(:email => 'a@a', :id => 10)
+    @contact = Contact.find(params[:id])
+    # robimy ZLACZENIE - wyszukalismy zlaczenie ktore jest po ID odpowiednim
+    # w zmiennej @contact_details mamy juz dane szczegolowe kontaktu
+    @contact_details = @contact.contact_detail
 
+    # SELECT c.id, c.name, c.email, c.description, cd.address, CONCAT(cd.name, ' ', cd.surname) AS full_name FROM contacts AS c
+    # LEFT JOIN contact_details AS cd ON c.id = cd.contact_id
+
+    # zlaczenie
+    # @contact_info = Contact.joins(:contact_detail) - mamy zlaczenie i ZWRACA NAM WSZYSTKO
+    # a teraz chcemy zawezic wyniki do jednego ID
+    #@contact_info = Contact.joins(:contact_detail).where(id: params[:id]).first
+
+    #chcemy wyciagnac pola jakie mamy w sql
+    @contact_info = Contact.select('contacts.id, contacts.name, contacts.email,
+                                   contacts.description, contact_details.address,
+                                    CONCAT(contact_details.name, " ", contact_details.surname) AS full_name')
+                           .joins('LEFT JOIN contact_details ON contacts.id = contact_details.contact_id')
+    .where('contacts.id = ?', params[:id]).first
+
+    puts @contact_info.to_yaml
   end
 
   # GET /contacts/new

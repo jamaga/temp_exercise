@@ -15,5 +15,17 @@
   <%= @contact.description %>
 </p>
 
+<% unless @contact_details.nil? %>
+  <p>
+    <strong>Full Name:</strong>
+    <%= @contact_details.name %>  <%= @contact_details.surname %>
+  </p>
+
+  <p>
+    <strong>Address:</strong>
+    <%= @contact_details.address %>
+  </p>
+<% end %>
+
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>
