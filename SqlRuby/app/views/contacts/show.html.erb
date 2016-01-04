@@ -27,5 +27,13 @@
   </p>
 <% end %>
 
+<% unless @contact_info.nil? %>
+  <p>
+    <strong>IS ACTIVE?:</strong>
+    <%= @contact_info.is_active %>
+  </p>
+
+<% end %>
+
 <%= link_to 'Edit', edit_contact_path(@contact) %> |
 <%= link_to 'Back', contacts_path %>

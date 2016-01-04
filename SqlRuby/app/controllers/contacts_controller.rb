@@ -70,7 +70,26 @@ class ContactsController < ApplicationController
                            .joins('LEFT JOIN contact_details ON contacts.id = contact_details.contact_id')
     .where('contacts.id = ?', params[:id]).first
 
-    puts @contact_info.to_yaml
+    #puts @contact_info.to_yaml
+
+    #wyciagnac dla kontaktu (po show)
+    # wszystie wpisy contact_infos przypisane do tego kontaktu
+
+    # relacja has_many !  - dlatego @contact.contact_infoS !!
+    # jakby bylo has_one - byloby @contact.contact_info
+
+    @contact_infos = @contact.contact_infos
+
+    puts @contact_infos.as_json.to_yaml
+
+    @contact_info = Contact.select('contacts.id, contacts.name, contacts.email,
+                                   contacts.description, contact_details.address,
+                                    CONCAT(contact_details.name, " ", contact_details.surname) AS full_name,
+                                    contact_infos.is_active')
+                        .joins('LEFT JOIN contact_details ON contacts.id = contact_details.contact_id
+                                LEFT JOIN contact_infos ON contacts.id = contact_infos.id')
+                        .where('contacts.id = ?', params[:id]).first
+
   end
 
   # GET /contacts/new
