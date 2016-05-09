@@ -28,7 +28,7 @@ class EditUserTest < ActionDispatch::IntegrationTest
 #kiedy udalo nam sie zalogowac ale
 #wypelnilismy blednie formularz - no nie podalismy current password!!!
 
-  test 'we didint write current password' do
+  test 'we didn\'t write current password' do
     post_via_redirect '/users/sign_in', :user => { :email => 'john@domain.com', :password => 'qwerty12!@' }
     get '/users/edit'
     assert_response :success
