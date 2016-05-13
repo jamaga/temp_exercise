@@ -1,4 +1,3 @@
-# - napisac unit testy
 # - napisac klase kalkulator2 ktora bedzie dzialac jak obecna ale liczby beda wczytywane z Pliku
 #
 # dodaj|2,3,4
@@ -12,6 +11,13 @@
 # jesli nie znajdzie dzialania - ma sie wyswietlic blad
 # jesli nie bedzie wpisow - ma sie wyswietlic ze nie ma wspisow
 
+# dodaj|2,3,4
+
+# odejmij|5,2,1
+# cosinnego|3,2,5
+
+
+require 'test/unit'
 
 class KaklulatorDwa
 
@@ -23,15 +29,16 @@ class KaklulatorDwa
       licz_w_arr = linijka[1].split(',')
       licz_w_arr.each do |jedna_liczba|
         wynik = wynik + jedna_liczba.to_i
-        p wynik
       end
+      p wynik
 
     elsif linijka[0] == 'odejmij'
       licz_w_arr = linijka[1].split(',')
       licz_w_arr.each do |jedna_liczba|
+        licz_w_arr[0]
         wynik = wynik - jedna_liczba.to_i
-        p wynik
       end
+      p wynik
     else
       raise 'nie zdefiniowane dzialanie!!!'
     end
@@ -41,21 +48,20 @@ end
 
 class KalkulatorDwaTest < Test::Unit::TestCase
 
-  File.read('kalkulator2.txt').split("\n").each do |line|
-    p line
-    p 'daddsd'
-  end
 
-    def test_dodawanie
-
+  def test_dodawanie
+    k = KalkulatorDwa.new
+    assert_equal 9, k.dodaj('2,3,4')
   end
 
   def test_odejmowanie
-
+    k = KalkulatorDwa.new
+    assert_equal 2, k.odejmij('5,2,1')
   end
 
   def test_bez_dzialania
-
+    # wyguglowac
+    #assert_raise 'nie zdefiniowane dzialanie!!!'
   end
 
 end
