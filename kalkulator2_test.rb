@@ -1,5 +1,5 @@
 require 'test/unit'
-require '/klkulator2.rb'
+require './kalkulator2.rb'
 
 class KalkulatorDwaTest < Test::Unit::TestCase
 
@@ -7,6 +7,8 @@ class KalkulatorDwaTest < Test::Unit::TestCase
     k = KalkulatorDwa.new
     assert_equal 9, k.wykonaj_dzialanie('dodaj|2,3,4')
     assert_equal 2, k.wykonaj_dzialanie('odejmij|5,2,1')
+    assert_equal 30, k.wykonaj_dzialanie('mnoz|5,2,3')
+    assert_equal 1.5, k.wykonaj_dzialanie('dziel|9,3,2')
   end
 
   def test_dodawanie
