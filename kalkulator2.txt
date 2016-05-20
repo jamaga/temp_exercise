@@ -1,3 +1,5 @@
 dodaj|2,3,4
 odejmij|5,2,1
 cosinnego|3,2,5
+mnoz|5,2,3 (efekt -> 30)
+dziel|9,3,2 (efekt -> 1.5)
