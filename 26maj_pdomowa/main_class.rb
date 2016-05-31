@@ -5,36 +5,46 @@ class Main
   end
 
   def total
-    wynik = {}
-    @nasz_hash.each do |nazwa_grupy, slowa_w_grupie|
-      slowa_w_grupie.each do |jedno_slowo|
-       if wynik[jedno_slowo.to_sym].nil?
-         wynik[jedno_slowo.to_sym] = 0
-       end
-       wynik[jedno_slowo.to_sym] += 1
-      end
-    end
-    wynik
+    licz_slowa(@nasz_hash.values.flatten)
   end
 
   def total_group
     wynik = {}
     @nasz_hash.each do |nazwa_grupy, slowa_w_grupie|
-      wynik[nazwa_grupy] = {}
-      slowa_w_grupie.each do |jedno_slowo|
-        if wynik[nazwa_grupy][jedno_slowo.to_sym].nil?
-          wynik[nazwa_grupy][jedno_slowo.to_sym] = 0
-        end
-        wynik[nazwa_grupy][jedno_slowo.to_sym] += 1
+      wynik[nazwa_grupy.to_sym] = {} if wynik[nazwa_grupy.to_sym].nil?
+      wynik[nazwa_grupy.to_sym] = licz_slowa(slowa_w_grupie)
+    end
+    wynik
+  end
+
+  def licz_slowa(tablica_slow)
+    wynik = {}
+    tablica_slow.each do |jedno_slowo|
+      if wynik[jedno_slowo.to_sym].nil?
+        wynik[jedno_slowo.to_sym] = 0
       end
+      wynik[jedno_slowo.to_sym] += 1
+    end
+    wynik
+  end
+
+  def suma_wynikow_w_grupie
+    wynik = {}
+    total_group.each do |nazwa_grupy, slowa_w_grupie|
+      wynik[nazwa_grupy.to_sym] = licz_sumy(slowa_w_grupie)
+    end
+    wynik
+  end
+
+  def suma_wynikow
+    licz_sumy(total)
+  end
+
+  def licz_sumy(zliczone_slowa)
+    wynik = 0
+    zliczone_slowa.each do |slowo, ilosc_wystapien|
+      wynik += ilosc_wystapien
     end
     wynik
   end
 end
-
-#zrobic tak zeby DRY
-#dorobic testy
-#dodac funkcje - ale pewne elementy sie powtarzaja
-#zrobic funkcje z tgo co sie POWTARZA tylko i obtestowac
-
-
