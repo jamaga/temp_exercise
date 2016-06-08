@@ -36,9 +36,4 @@ class KalkulatorDwaTest < Test::Unit::TestCase
     assert_raise(NoMethodError) {k.cosinnego('3,2,5')}
   end
 
-  def test_dzialanie_z_poza_pliku
-    k = KalkulatorDwa.new
-    assert_raise(NoMethodError) {k.coscos('4,5,6')}
-  end
-
 end
