@@ -67,7 +67,7 @@ class MainTest < Test::Unit::TestCase
     #################
 
 
-    assert_equal ' Ala i Tomek są przyjaciółmi. Kasia i Marek istnieją. Basia jest sama.', Main.build_string(
+    assert_equal 'Ala i Tomek są przyjaciółmi. Kasia i Marek istnieją. Basia jest sama.', Main.build_string(
     [
         [
             ['ala', 'kasia', 'basia'],

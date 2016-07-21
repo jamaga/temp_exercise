@@ -1,0 +1,17 @@
+tablica = [
+    ['A', 'B'],
+    ['C', 'D'],
+    ['E', 'F'],
+    ['g', 'h'],
+    ['i', 'j']
+]
+
+tablica.map.with_index { |t, index|
+  if index % 2 
+    t.map!(&:upcase)
+  else
+    t.map!(&:downcase)
+  end
+
+  t.join('/')
+}.join(' i ')
