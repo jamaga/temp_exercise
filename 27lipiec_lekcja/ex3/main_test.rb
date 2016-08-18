@@ -7,9 +7,10 @@ class MainTest < Test::Unit::TestCase
 
     assert_equal [
                      ['ala', 'basia', 'kasia'],
-                     ['ma', 'nie ma'],
+                     ['ma', 'niema'],
+                     ['bialego'],
                      ['kota', 'psa', 'mysz']
                  ],
-                 Main.build_array('Ala ma kota. Basia nie ma psa. Kasia mysz.')
+                 Main.build_array('Ala ma bialego kota. Basia niema psa. Kasia mysz.')
   end
 end
