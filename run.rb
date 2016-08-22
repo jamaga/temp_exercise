@@ -31,7 +31,8 @@ class Bootstrap
   end
 
   def create_files
-    File.
+    File.new("./#{dir_name}/#{FILE_CLASS_NAME}", "w+")
+    File.new("./#{dir_name}/#{FILE_TEST_NAME}", "w+")
   end
 
   def check_files
@@ -49,8 +50,6 @@ class Bootstrap
       end
     end
   end
-
-
 
 end
 Bootstrap.new   # .new - tworzy nowa instancje - i KONSTRUKTOR SIE ODPALA
