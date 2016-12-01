@@ -1,0 +1,4 @@
+imie,opis,ocena
+Andrzej Nowak,super,4
+Jan Wiśniewski,fajny,2
+Michał Kowalski,coś tam,5

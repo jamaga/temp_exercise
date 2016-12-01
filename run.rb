@@ -10,48 +10,58 @@
 require 'date'
 class Bootstrap
 
-  FILE_CLASS_NAME = 'main_class.rb'
-  FILE_TEST_NAME = 'main_test.rb'
+  DEFAULT_NAME = 'main'
 
-  attr_reader :dir_name, :file_class_name, :file_test_name
+  attr_reader :dir_name, :file_class_name, :file_test_name, :name
 
   def initialize
-    @dir_name = Date.today.strftime("%d-%m-%Y")
-    @file_class_name = File.join(@dir_name, FILE_CLASS_NAME)
-    @file_test_name = File.join(@dir_name, FILE_TEST_NAME)
+    @name = set_name
+    @dir_count = 1
+    set_dir_name
+    @file_class_name = File.join(@dir_name, "#{@name}_class.rb")
+    @file_test_name = File.join(@dir_name, "#{@name}_test.rb")
 
     create_dirs
-    create_files
     check_files
+    create_files
     write_in_files
   end
 
-  def create_dirs
-    unless Dir.exist?(@dir_name)
-      Dir.mkdir(@dir_name)
+  def set_dir_name
+    @dir_name = Date.today.strftime("%d-%m-%Y_#{@dir_count}")
+    if Dir.exist?(@dir_name)
+      @dir_count += 1
+      set_dir_name
     end
   end
 
+  def create_dirs
+    Dir.mkdir(@dir_name)
+  end
+
+  # def create_dirs
+  #   unless Dir.exist?(@dir_name)
+  #     Dir.mkdir(@dir_name)
+  #   end
+  # end
+
   def create_files
-    File.new("./#{dir_name}/#{FILE_CLASS_NAME}", "w+")
-    File.new("./#{dir_name}/#{FILE_TEST_NAME}", "w+")
+    File.new(@file_class_name, "w+")
+    File.new(@file_test_name, "w+")
   end
 
   def write_in_files
-    File.open("./#{dir_name}/#{FILE_CLASS_NAME}", "w") do |l|
-      l.puts "class Main\n  def self.transform()\n\n  end\nend"
+    File.open(@file_class_name, "w") do |l|
+      l.puts "class #{@name.classify}\n  def self.transform()\n\n  end\nend"
     end
 
-    File.open("./#{dir_name}/#{FILE_TEST_NAME}", "w") do |l|
-      l.puts "require 'test/unit'\nrequire './main_class.rb'\n\nclass MainTest < Test::Unit::TestCase\n\n  def test_one\n\n\n\n\n  end\nend"
+    File.open(@file_test_name, "w") do |l|
+      l.puts "require 'test/unit'\nrequire './#{@name}_class.rb'\n\nclass #{@name.classify}Test < Test::Unit::TestCase\n  def test_one\n\n  end\nend"
     end
   end
 
   def check_files
-    p File.exist?("./#{dir_name}/#{FILE_CLASS_NAME}")
-    p File.exist?("./#{dir_name}/#{FILE_TEST_NAME}")
-
-    if File.exist?("./#{dir_name}/#{FILE_CLASS_NAME}") && File.exist?("./#{dir_name}/#{FILE_TEST_NAME}")
+    if File.exist?(@file_class_name) && File.exist?(@file_test_name)
       puts 'Do you want to overwrite files? - Y or N'
       answer = gets.chomp
       if answer == 'Y'
@@ -62,17 +72,36 @@ class Bootstrap
         return
       end
     end
-
-    FILE_TEST_NAME.puts("write your stuff here")
-
-    File.open("#{FILE_TEST_NAME}", "w") do |f|
-      f.write('jhjjhjhjhj')
-    end
-
   end
+
+  def set_name
+    if ARGV[0]
+      ARGV[0].downcase
+    else
+      DEFAULT_NAME
+    end
+  end
+
+
 end
 
-Bootstrap.new   # .new - tworzy nowa instancje - i KONSTRUKTOR SIE ODPALA
+Bootstrap.new # .new - tworzy nowa instancje - i KONSTRUKTOR SIE ODPALA
 
 
 # moze dir z numerem 1  2  3 -- bo na lekcji czasem robimy 2 albo 3 zadania i potrzebne jest wiecej
+
+
+# 1.
+
+
+#poprawic - nadpisac klasy string
+#i dodac metode Classify zeby tworyla nazwe klasy
+# zobaczyc jak w railsach dziala i zrobic tak samo (classify klasa railsowa)
+#
+#
+# [06/09/16 09:54:44] Piotr Krajewski: moja_nazwa
+# [06/09/16 09:54:49] Piotr Krajewski: MojaNazwa
+#
+# [06/09/16 09:55:02] Piotr Krajewski: katalog/moja_nazwa
+# [06/09/16 09:55:07] Piotr Krajewski: Katalog::MojaNazwa
+
