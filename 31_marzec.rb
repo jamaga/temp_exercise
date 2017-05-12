@@ -29,15 +29,6 @@ end
 
 
 
-#   - wyslac pieniadze!!!!
-
-
-
-
-
-
-
-
 class NamesTest < Test::Unit::TestCase
 
   def test_transform_a
